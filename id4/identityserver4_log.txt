@@ -1,0 +1,2098 @@
+2017-10-12 22:54:01.424 +02:00 [Information] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2017-10-12 22:54:01.483 +02:00 [Debug] Using built-in CookieAuthentication middleware with scheme: "idsrv"
+2017-10-12 22:54:01.497 +02:00 [Debug] Adding CookieAuthentication middleware for external authentication with scheme: "idsrv.external"
+2017-10-12 22:55:30.482 +02:00 [Debug] Request path "/connect/authorize" matched to endpoint type Authorize
+2017-10-12 22:55:30.491 +02:00 [Debug] Mapping found for endpoint: Authorize, creating handler: "IdentityServer4.Endpoints.AuthorizeEndpoint"
+2017-10-12 22:55:30.497 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.AuthorizeEndpoint" for "/connect/authorize"
+2017-10-12 22:55:30.507 +02:00 [Debug] Start authorize request
+2017-10-12 22:55:30.558 +02:00 [Debug] No user present in authorize request
+2017-10-12 22:55:30.567 +02:00 [Debug] Start authorize request protocol validation
+2017-10-12 22:55:30.659 +02:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-12 22:55:30.727 +02:00 [Information] ValidatedAuthorizeRequest
+"{
+  \"ClientId\": \"spa\",
+  \"ClientName\": \"SPA Client\",
+  \"RedirectUri\": \"http://localhost:5002/about\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:5002/about\"
+  ],
+  \"SubjectId\": \"anonymous\",
+  \"ResponseType\": \"id_token token\",
+  \"ResponseMode\": \"fragment\",
+  \"GrantType\": \"implicit\",
+  \"RequestedScopes\": \"openid profile todo\",
+  \"Nonce\": \"n-0S6_WzA2Mj\",
+  \"Raw\": {
+    \"response_type\": \"id_token token\",
+    \"client_id\": \"spa\",
+    \"redirect_uri\": \"http://localhost:5002/about\",
+    \"scope\": \"openid profile todo\",
+    \"nonce\": \"n-0S6_WzA2Mj\"
+  }
+}"
+2017-10-12 22:55:30.754 +02:00 [Information] Showing login: User is not authenticated
+2017-10-12 22:55:31.613 +02:00 [Debug] Start authorize request protocol validation
+2017-10-12 22:55:31.615 +02:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-12 23:40:53.192 +02:00 [Debug] Request path "/connect/authorize" matched to endpoint type Authorize
+2017-10-12 23:40:53.204 +02:00 [Debug] Mapping found for endpoint: Authorize, creating handler: "IdentityServer4.Endpoints.AuthorizeEndpoint"
+2017-10-12 23:40:53.221 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.AuthorizeEndpoint" for "/connect/authorize"
+2017-10-12 23:40:53.225 +02:00 [Debug] Start authorize request
+2017-10-12 23:40:53.227 +02:00 [Debug] No user present in authorize request
+2017-10-12 23:40:53.301 +02:00 [Debug] Start authorize request protocol validation
+2017-10-12 23:40:53.303 +02:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-12 23:40:53.306 +02:00 [Information] ValidatedAuthorizeRequest
+"{
+  \"ClientId\": \"spa\",
+  \"ClientName\": \"SPA Client\",
+  \"RedirectUri\": \"http://localhost:5002/about\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:5002/about\"
+  ],
+  \"SubjectId\": \"anonymous\",
+  \"ResponseType\": \"id_token token\",
+  \"ResponseMode\": \"fragment\",
+  \"GrantType\": \"implicit\",
+  \"RequestedScopes\": \"openid profile todo\",
+  \"Nonce\": \"n-0S6_WzA2Mj\",
+  \"Raw\": {
+    \"response_type\": \"id_token token\",
+    \"client_id\": \"spa\",
+    \"redirect_uri\": \"http://localhost:5002/about\",
+    \"scope\": \"openid profile todo\",
+    \"nonce\": \"n-0S6_WzA2Mj\"
+  }
+}"
+2017-10-12 23:40:53.312 +02:00 [Information] Showing login: User is not authenticated
+2017-10-12 23:40:53.320 +02:00 [Debug] Start authorize request protocol validation
+2017-10-12 23:40:53.321 +02:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-12 23:41:03.539 +02:00 [Debug] Augmenting SignInContext
+2017-10-12 23:41:03.650 +02:00 [Debug] Request path "/connect/authorize/login" matched to endpoint type Authorize
+2017-10-12 23:41:03.651 +02:00 [Debug] Mapping found for endpoint: Authorize, creating handler: "IdentityServer4.Endpoints.AuthorizeEndpoint"
+2017-10-12 23:41:03.652 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.AuthorizeEndpoint" for "/connect/authorize/login"
+2017-10-12 23:41:03.656 +02:00 [Debug] Start authorize request (after login)
+2017-10-12 23:41:03.658 +02:00 [Debug] User in authorize request: "818727"
+2017-10-12 23:41:03.660 +02:00 [Debug] Start authorize request protocol validation
+2017-10-12 23:41:03.661 +02:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-12 23:41:03.663 +02:00 [Information] ValidatedAuthorizeRequest
+"{
+  \"ClientId\": \"spa\",
+  \"ClientName\": \"SPA Client\",
+  \"RedirectUri\": \"http://localhost:5002/about\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:5002/about\"
+  ],
+  \"SubjectId\": \"818727\",
+  \"ResponseType\": \"id_token token\",
+  \"ResponseMode\": \"fragment\",
+  \"GrantType\": \"implicit\",
+  \"RequestedScopes\": \"openid profile todo\",
+  \"Nonce\": \"n-0S6_WzA2Mj\",
+  \"SessionId\": \"1e1666cf257de2a75cbf97ec01273717\",
+  \"Raw\": {
+    \"response_type\": \"id_token token\",
+    \"client_id\": \"spa\",
+    \"redirect_uri\": \"http://localhost:5002/about\",
+    \"scope\": \"openid profile todo\",
+    \"nonce\": \"n-0S6_WzA2Mj\"
+  }
+}"
+2017-10-12 23:41:03.676 +02:00 [Debug] "user_consent" grant with value: "spa|818727" not found in store.
+2017-10-12 23:41:03.678 +02:00 [Information] Showing consent: User has not yet consented
+2017-10-12 23:41:03.691 +02:00 [Debug] Start authorize request protocol validation
+2017-10-12 23:41:03.692 +02:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-12 23:41:05.858 +02:00 [Debug] Start authorize request protocol validation
+2017-10-12 23:41:05.860 +02:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-12 23:41:05.897 +02:00 [Debug] Request path "/connect/authorize/consent" matched to endpoint type Authorize
+2017-10-12 23:41:05.901 +02:00 [Debug] Mapping found for endpoint: Authorize, creating handler: "IdentityServer4.Endpoints.AuthorizeEndpoint"
+2017-10-12 23:41:05.902 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.AuthorizeEndpoint" for "/connect/authorize/consent"
+2017-10-12 23:41:05.914 +02:00 [Debug] Start authorize request (after consent)
+2017-10-12 23:41:06.024 +02:00 [Debug] User in authorize request: "818727"
+2017-10-12 23:41:06.025 +02:00 [Debug] Start authorize request protocol validation
+2017-10-12 23:41:06.026 +02:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-12 23:41:06.027 +02:00 [Information] ValidatedAuthorizeRequest
+"{
+  \"ClientId\": \"spa\",
+  \"ClientName\": \"SPA Client\",
+  \"RedirectUri\": \"http://localhost:5002/about\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:5002/about\"
+  ],
+  \"SubjectId\": \"818727\",
+  \"ResponseType\": \"id_token token\",
+  \"ResponseMode\": \"fragment\",
+  \"GrantType\": \"implicit\",
+  \"RequestedScopes\": \"openid profile todo\",
+  \"Nonce\": \"n-0S6_WzA2Mj\",
+  \"SessionId\": \"1e1666cf257de2a75cbf97ec01273717\",
+  \"Raw\": {
+    \"response_type\": \"id_token token\",
+    \"client_id\": \"spa\",
+    \"redirect_uri\": \"http://localhost:5002/about\",
+    \"scope\": \"openid profile todo\",
+    \"nonce\": \"n-0S6_WzA2Mj\"
+  }
+}"
+2017-10-12 23:41:06.030 +02:00 [Debug] "user_consent" grant with value: "spa|818727" not found in store.
+2017-10-12 23:41:06.042 +02:00 [Information] User consented to scopes: ["openid", "profile", "todo"]
+2017-10-12 23:41:06.053 +02:00 [Debug] User indicated to remember consent for scopes: ["openid", "profile", "todo"]
+2017-10-12 23:41:06.101 +02:00 [Debug] Creating Implicit Flow response.
+2017-10-12 23:41:06.124 +02:00 [Debug] Getting claims for access token for client: "spa"
+2017-10-12 23:41:06.125 +02:00 [Debug] Getting claims for access token for subject: "818727"
+2017-10-12 23:41:06.131 +02:00 [Debug] Get profile called for subject "818727" from client "SPA Client" with claim types [] via "ClaimsProviderAccessToken"
+2017-10-12 23:41:06.222 +02:00 [Debug] Getting claims for identity token for subject: "818727" and client: "spa"
+2017-10-12 23:41:06.223 +02:00 [Debug] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2017-10-12 23:41:06.235 +02:00 [Information] Authorize endpoint response
+"{
+  \"SubjectId\": \"818727\",
+  \"ClientId\": \"spa\",
+  \"RedirectUri\": \"http://localhost:5002/about\",
+  \"Scope\": \"openid profile todo\"
+}"
+2017-10-12 23:41:06.263 +02:00 [Debug] Augmenting SignInContext
+2017-10-12 23:43:12.863 +02:00 [Debug] Request path "/connect/authorize" matched to endpoint type Authorize
+2017-10-12 23:43:12.866 +02:00 [Debug] Mapping found for endpoint: Authorize, creating handler: "IdentityServer4.Endpoints.AuthorizeEndpoint"
+2017-10-12 23:43:12.871 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.AuthorizeEndpoint" for "/connect/authorize"
+2017-10-12 23:43:12.955 +02:00 [Debug] Start authorize request
+2017-10-12 23:43:12.959 +02:00 [Debug] User in authorize request: "818727"
+2017-10-12 23:43:12.960 +02:00 [Debug] Start authorize request protocol validation
+2017-10-12 23:43:12.963 +02:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-12 23:43:12.964 +02:00 [Information] ValidatedAuthorizeRequest
+"{
+  \"ClientId\": \"spa\",
+  \"ClientName\": \"SPA Client\",
+  \"RedirectUri\": \"http://localhost:5002/about\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:5002/about\"
+  ],
+  \"SubjectId\": \"818727\",
+  \"ResponseType\": \"id_token token\",
+  \"ResponseMode\": \"fragment\",
+  \"GrantType\": \"implicit\",
+  \"RequestedScopes\": \"openid profile todo\",
+  \"Nonce\": \"n-0S6_WzA2Mj\",
+  \"SessionId\": \"1e1666cf257de2a75cbf97ec01273717\",
+  \"Raw\": {
+    \"response_type\": \"id_token token\",
+    \"client_id\": \"spa\",
+    \"redirect_uri\": \"http://localhost:5002/about\",
+    \"scope\": \"openid profile todo\",
+    \"nonce\": \"n-0S6_WzA2Mj\"
+  }
+}"
+2017-10-12 23:43:12.985 +02:00 [Debug] Creating Implicit Flow response.
+2017-10-12 23:43:12.986 +02:00 [Debug] Getting claims for access token for client: "spa"
+2017-10-12 23:43:12.987 +02:00 [Debug] Getting claims for access token for subject: "818727"
+2017-10-12 23:43:12.988 +02:00 [Debug] Get profile called for subject "818727" from client "SPA Client" with claim types [] via "ClaimsProviderAccessToken"
+2017-10-12 23:43:12.996 +02:00 [Debug] Getting claims for identity token for subject: "818727" and client: "spa"
+2017-10-12 23:43:12.997 +02:00 [Debug] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2017-10-12 23:43:13.001 +02:00 [Information] Authorize endpoint response
+"{
+  \"SubjectId\": \"818727\",
+  \"ClientId\": \"spa\",
+  \"RedirectUri\": \"http://localhost:5002/about\",
+  \"Scope\": \"openid profile todo\"
+}"
+2017-10-12 23:47:23.280 +02:00 [Debug] Request path "/connect/authorize" matched to endpoint type Authorize
+2017-10-12 23:47:23.288 +02:00 [Debug] Mapping found for endpoint: Authorize, creating handler: "IdentityServer4.Endpoints.AuthorizeEndpoint"
+2017-10-12 23:47:23.301 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.AuthorizeEndpoint" for "/connect/authorize"
+2017-10-12 23:47:23.370 +02:00 [Debug] Start authorize request
+2017-10-12 23:47:23.371 +02:00 [Debug] User in authorize request: "818727"
+2017-10-12 23:47:23.372 +02:00 [Debug] Start authorize request protocol validation
+2017-10-12 23:47:23.374 +02:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-12 23:47:23.375 +02:00 [Information] ValidatedAuthorizeRequest
+"{
+  \"ClientId\": \"spa\",
+  \"ClientName\": \"SPA Client\",
+  \"RedirectUri\": \"http://localhost:5002/about\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:5002/about\"
+  ],
+  \"SubjectId\": \"818727\",
+  \"ResponseType\": \"id_token token\",
+  \"ResponseMode\": \"fragment\",
+  \"GrantType\": \"implicit\",
+  \"RequestedScopes\": \"openid profile todo\",
+  \"Nonce\": \"n-0S6_WzA2Mj\",
+  \"SessionId\": \"1e1666cf257de2a75cbf97ec01273717\",
+  \"Raw\": {
+    \"response_type\": \"id_token token\",
+    \"client_id\": \"spa\",
+    \"redirect_uri\": \"http://localhost:5002/about\",
+    \"scope\": \"openid profile todo\",
+    \"nonce\": \"n-0S6_WzA2Mj\"
+  }
+}"
+2017-10-12 23:47:23.384 +02:00 [Debug] Creating Implicit Flow response.
+2017-10-12 23:47:23.385 +02:00 [Debug] Getting claims for access token for client: "spa"
+2017-10-12 23:47:23.387 +02:00 [Debug] Getting claims for access token for subject: "818727"
+2017-10-12 23:47:23.388 +02:00 [Debug] Get profile called for subject "818727" from client "SPA Client" with claim types [] via "ClaimsProviderAccessToken"
+2017-10-12 23:47:23.393 +02:00 [Debug] Getting claims for identity token for subject: "818727" and client: "spa"
+2017-10-12 23:47:23.394 +02:00 [Debug] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2017-10-12 23:47:23.399 +02:00 [Information] Authorize endpoint response
+"{
+  \"SubjectId\": \"818727\",
+  \"ClientId\": \"spa\",
+  \"RedirectUri\": \"http://localhost:5002/about\",
+  \"Scope\": \"openid profile todo\"
+}"
+2017-10-12 23:58:17.958 +02:00 [Debug] Request path "/connect/authorize" matched to endpoint type Authorize
+2017-10-12 23:58:17.960 +02:00 [Debug] Mapping found for endpoint: Authorize, creating handler: "IdentityServer4.Endpoints.AuthorizeEndpoint"
+2017-10-12 23:58:17.961 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.AuthorizeEndpoint" for "/connect/authorize"
+2017-10-12 23:58:17.963 +02:00 [Debug] Start authorize request
+2017-10-12 23:58:17.967 +02:00 [Debug] User in authorize request: "818727"
+2017-10-12 23:58:17.968 +02:00 [Debug] Start authorize request protocol validation
+2017-10-12 23:58:17.969 +02:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-12 23:58:17.971 +02:00 [Information] ValidatedAuthorizeRequest
+"{
+  \"ClientId\": \"spa\",
+  \"ClientName\": \"SPA Client\",
+  \"RedirectUri\": \"http://localhost:5002/about\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:5002/about\"
+  ],
+  \"SubjectId\": \"818727\",
+  \"ResponseType\": \"id_token token\",
+  \"ResponseMode\": \"fragment\",
+  \"GrantType\": \"implicit\",
+  \"RequestedScopes\": \"openid profile todo\",
+  \"Nonce\": \"n-0S6_WzA2Mj\",
+  \"SessionId\": \"1e1666cf257de2a75cbf97ec01273717\",
+  \"Raw\": {
+    \"response_type\": \"id_token token\",
+    \"client_id\": \"spa\",
+    \"redirect_uri\": \"http://localhost:5002/about\",
+    \"scope\": \"openid profile todo\",
+    \"nonce\": \"n-0S6_WzA2Mj\"
+  }
+}"
+2017-10-12 23:58:17.985 +02:00 [Debug] Creating Implicit Flow response.
+2017-10-12 23:58:18.044 +02:00 [Debug] Getting claims for access token for client: "spa"
+2017-10-12 23:58:18.045 +02:00 [Debug] Getting claims for access token for subject: "818727"
+2017-10-12 23:58:18.047 +02:00 [Debug] Get profile called for subject "818727" from client "SPA Client" with claim types [] via "ClaimsProviderAccessToken"
+2017-10-12 23:58:18.052 +02:00 [Debug] Getting claims for identity token for subject: "818727" and client: "spa"
+2017-10-12 23:58:18.069 +02:00 [Debug] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2017-10-12 23:58:18.077 +02:00 [Information] Authorize endpoint response
+"{
+  \"SubjectId\": \"818727\",
+  \"ClientId\": \"spa\",
+  \"RedirectUri\": \"http://localhost:5002/about\",
+  \"Scope\": \"openid profile todo\"
+}"
+2017-10-13 00:00:08.439 +02:00 [Debug] Request path "/connect/authorize" matched to endpoint type Authorize
+2017-10-13 00:00:08.452 +02:00 [Debug] Mapping found for endpoint: Authorize, creating handler: "IdentityServer4.Endpoints.AuthorizeEndpoint"
+2017-10-13 00:00:08.454 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.AuthorizeEndpoint" for "/connect/authorize"
+2017-10-13 00:00:08.455 +02:00 [Debug] Start authorize request
+2017-10-13 00:00:08.456 +02:00 [Debug] User in authorize request: "818727"
+2017-10-13 00:00:08.522 +02:00 [Debug] Start authorize request protocol validation
+2017-10-13 00:00:08.543 +02:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-13 00:00:08.544 +02:00 [Information] ValidatedAuthorizeRequest
+"{
+  \"ClientId\": \"spa\",
+  \"ClientName\": \"SPA Client\",
+  \"RedirectUri\": \"http://localhost:5002/about\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:5002/about\"
+  ],
+  \"SubjectId\": \"818727\",
+  \"ResponseType\": \"id_token token\",
+  \"ResponseMode\": \"fragment\",
+  \"GrantType\": \"implicit\",
+  \"RequestedScopes\": \"openid profile todo\",
+  \"Nonce\": \"n-0S6_WzA2Mj\",
+  \"SessionId\": \"1e1666cf257de2a75cbf97ec01273717\",
+  \"Raw\": {
+    \"response_type\": \"id_token token\",
+    \"client_id\": \"spa\",
+    \"redirect_uri\": \"http://localhost:5002/about\",
+    \"scope\": \"openid profile todo\",
+    \"nonce\": \"n-0S6_WzA2Mj\"
+  }
+}"
+2017-10-13 00:00:08.553 +02:00 [Debug] Creating Implicit Flow response.
+2017-10-13 00:00:08.555 +02:00 [Debug] Getting claims for access token for client: "spa"
+2017-10-13 00:00:08.556 +02:00 [Debug] Getting claims for access token for subject: "818727"
+2017-10-13 00:00:08.559 +02:00 [Debug] Get profile called for subject "818727" from client "SPA Client" with claim types [] via "ClaimsProviderAccessToken"
+2017-10-13 00:00:08.564 +02:00 [Debug] Getting claims for identity token for subject: "818727" and client: "spa"
+2017-10-13 00:00:08.565 +02:00 [Debug] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2017-10-13 00:00:08.570 +02:00 [Information] Authorize endpoint response
+"{
+  \"SubjectId\": \"818727\",
+  \"ClientId\": \"spa\",
+  \"RedirectUri\": \"http://localhost:5002/about\",
+  \"Scope\": \"openid profile todo\"
+}"
+2017-10-13 22:17:56.025 +02:00 [Debug] Request path "/connect/authorize" matched to endpoint type Authorize
+2017-10-13 22:17:56.026 +02:00 [Debug] Mapping found for endpoint: Authorize, creating handler: "IdentityServer4.Endpoints.AuthorizeEndpoint"
+2017-10-13 22:17:56.027 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.AuthorizeEndpoint" for "/connect/authorize"
+2017-10-13 22:17:56.028 +02:00 [Debug] Start authorize request
+2017-10-13 22:17:56.030 +02:00 [Debug] No user present in authorize request
+2017-10-13 22:17:56.031 +02:00 [Debug] Start authorize request protocol validation
+2017-10-13 22:17:56.034 +02:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-13 22:17:56.036 +02:00 [Information] ValidatedAuthorizeRequest
+"{
+  \"ClientId\": \"spa\",
+  \"ClientName\": \"SPA Client\",
+  \"RedirectUri\": \"http://localhost:5002/about\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:5002/about\"
+  ],
+  \"SubjectId\": \"anonymous\",
+  \"ResponseType\": \"id_token token\",
+  \"ResponseMode\": \"fragment\",
+  \"GrantType\": \"implicit\",
+  \"RequestedScopes\": \"openid profile todo\",
+  \"Nonce\": \"n-0S6_WzA2Mj\",
+  \"Raw\": {
+    \"response_type\": \"id_token token\",
+    \"client_id\": \"spa\",
+    \"redirect_uri\": \"http://localhost:5002/about\",
+    \"scope\": \"openid profile todo\",
+    \"nonce\": \"n-0S6_WzA2Mj\"
+  }
+}"
+2017-10-13 22:17:56.038 +02:00 [Information] Showing login: User is not authenticated
+2017-10-13 22:17:56.064 +02:00 [Debug] Start authorize request protocol validation
+2017-10-13 22:17:56.105 +02:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-13 22:18:01.610 +02:00 [Debug] Augmenting SignInContext
+2017-10-13 22:18:01.692 +02:00 [Debug] Request path "/connect/authorize/login" matched to endpoint type Authorize
+2017-10-13 22:18:01.694 +02:00 [Debug] Mapping found for endpoint: Authorize, creating handler: "IdentityServer4.Endpoints.AuthorizeEndpoint"
+2017-10-13 22:18:01.695 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.AuthorizeEndpoint" for "/connect/authorize/login"
+2017-10-13 22:18:01.696 +02:00 [Debug] Start authorize request (after login)
+2017-10-13 22:18:01.697 +02:00 [Debug] User in authorize request: "818727"
+2017-10-13 22:18:01.698 +02:00 [Debug] Start authorize request protocol validation
+2017-10-13 22:18:01.700 +02:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-13 22:18:01.701 +02:00 [Information] ValidatedAuthorizeRequest
+"{
+  \"ClientId\": \"spa\",
+  \"ClientName\": \"SPA Client\",
+  \"RedirectUri\": \"http://localhost:5002/about\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:5002/about\"
+  ],
+  \"SubjectId\": \"818727\",
+  \"ResponseType\": \"id_token token\",
+  \"ResponseMode\": \"fragment\",
+  \"GrantType\": \"implicit\",
+  \"RequestedScopes\": \"openid profile todo\",
+  \"Nonce\": \"n-0S6_WzA2Mj\",
+  \"SessionId\": \"2aee66c063f51cec7571a0d9fdcf244b\",
+  \"Raw\": {
+    \"response_type\": \"id_token token\",
+    \"client_id\": \"spa\",
+    \"redirect_uri\": \"http://localhost:5002/about\",
+    \"scope\": \"openid profile todo\",
+    \"nonce\": \"n-0S6_WzA2Mj\"
+  }
+}"
+2017-10-13 22:18:01.727 +02:00 [Debug] Creating Implicit Flow response.
+2017-10-13 22:18:01.731 +02:00 [Debug] Getting claims for access token for client: "spa"
+2017-10-13 22:18:01.732 +02:00 [Debug] Getting claims for access token for subject: "818727"
+2017-10-13 22:18:01.733 +02:00 [Debug] Get profile called for subject "818727" from client "SPA Client" with claim types [] via "ClaimsProviderAccessToken"
+2017-10-13 22:18:01.743 +02:00 [Debug] Getting claims for identity token for subject: "818727" and client: "spa"
+2017-10-13 22:18:01.749 +02:00 [Debug] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2017-10-13 22:18:01.755 +02:00 [Information] Authorize endpoint response
+"{
+  \"SubjectId\": \"818727\",
+  \"ClientId\": \"spa\",
+  \"RedirectUri\": \"http://localhost:5002/about\",
+  \"Scope\": \"openid profile todo\"
+}"
+2017-10-13 22:18:01.756 +02:00 [Debug] Augmenting SignInContext
+2017-10-13 22:19:13.346 +02:00 [Debug] Request path "/connect/authorize" matched to endpoint type Authorize
+2017-10-13 22:19:13.347 +02:00 [Debug] Mapping found for endpoint: Authorize, creating handler: "IdentityServer4.Endpoints.AuthorizeEndpoint"
+2017-10-13 22:19:13.358 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.AuthorizeEndpoint" for "/connect/authorize"
+2017-10-13 22:19:13.360 +02:00 [Debug] Start authorize request
+2017-10-13 22:19:13.362 +02:00 [Debug] User in authorize request: "818727"
+2017-10-13 22:19:13.362 +02:00 [Debug] Start authorize request protocol validation
+2017-10-13 22:19:13.363 +02:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-13 22:19:13.364 +02:00 [Information] ValidatedAuthorizeRequest
+"{
+  \"ClientId\": \"spa\",
+  \"ClientName\": \"SPA Client\",
+  \"RedirectUri\": \"http://localhost:5002/about\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:5002/about\"
+  ],
+  \"SubjectId\": \"818727\",
+  \"ResponseType\": \"id_token token\",
+  \"ResponseMode\": \"fragment\",
+  \"GrantType\": \"implicit\",
+  \"RequestedScopes\": \"openid profile todo\",
+  \"Nonce\": \"n-0S6_WzA2Mj\",
+  \"SessionId\": \"2aee66c063f51cec7571a0d9fdcf244b\",
+  \"Raw\": {
+    \"response_type\": \"id_token token\",
+    \"client_id\": \"spa\",
+    \"redirect_uri\": \"http://localhost:5002/about\",
+    \"scope\": \"openid profile todo\",
+    \"nonce\": \"n-0S6_WzA2Mj\"
+  }
+}"
+2017-10-13 22:19:13.396 +02:00 [Debug] Creating Implicit Flow response.
+2017-10-13 22:19:13.427 +02:00 [Debug] Getting claims for access token for client: "spa"
+2017-10-13 22:19:13.428 +02:00 [Debug] Getting claims for access token for subject: "818727"
+2017-10-13 22:19:13.429 +02:00 [Debug] Get profile called for subject "818727" from client "SPA Client" with claim types [] via "ClaimsProviderAccessToken"
+2017-10-13 22:19:13.434 +02:00 [Debug] Getting claims for identity token for subject: "818727" and client: "spa"
+2017-10-13 22:19:13.435 +02:00 [Debug] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2017-10-13 22:19:13.440 +02:00 [Information] Authorize endpoint response
+"{
+  \"SubjectId\": \"818727\",
+  \"ClientId\": \"spa\",
+  \"RedirectUri\": \"http://localhost:5002/about\",
+  \"Scope\": \"openid profile todo\"
+}"
+2017-10-13 22:26:23.197 +02:00 [Debug] Request path "/connect/authorize" matched to endpoint type Authorize
+2017-10-13 22:26:23.198 +02:00 [Debug] Mapping found for endpoint: Authorize, creating handler: "IdentityServer4.Endpoints.AuthorizeEndpoint"
+2017-10-13 22:26:23.199 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.AuthorizeEndpoint" for "/connect/authorize"
+2017-10-13 22:26:23.200 +02:00 [Debug] Start authorize request
+2017-10-13 22:26:23.201 +02:00 [Debug] User in authorize request: "818727"
+2017-10-13 22:26:23.202 +02:00 [Debug] Start authorize request protocol validation
+2017-10-13 22:26:23.203 +02:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-13 22:26:23.204 +02:00 [Information] ValidatedAuthorizeRequest
+"{
+  \"ClientId\": \"spa\",
+  \"ClientName\": \"SPA Client\",
+  \"RedirectUri\": \"http://localhost:5002/about\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:5002/about\"
+  ],
+  \"SubjectId\": \"818727\",
+  \"ResponseType\": \"id_token token\",
+  \"ResponseMode\": \"fragment\",
+  \"GrantType\": \"implicit\",
+  \"RequestedScopes\": \"openid profile todo\",
+  \"Nonce\": \"n-0S6_WzA2Mj\",
+  \"SessionId\": \"2aee66c063f51cec7571a0d9fdcf244b\",
+  \"Raw\": {
+    \"response_type\": \"id_token token\",
+    \"client_id\": \"spa\",
+    \"redirect_uri\": \"http://localhost:5002/about\",
+    \"scope\": \"openid profile todo\",
+    \"nonce\": \"n-0S6_WzA2Mj\"
+  }
+}"
+2017-10-13 22:26:23.213 +02:00 [Debug] Creating Implicit Flow response.
+2017-10-13 22:26:23.214 +02:00 [Debug] Getting claims for access token for client: "spa"
+2017-10-13 22:26:23.216 +02:00 [Debug] Getting claims for access token for subject: "818727"
+2017-10-13 22:26:23.219 +02:00 [Debug] Get profile called for subject "818727" from client "SPA Client" with claim types [] via "ClaimsProviderAccessToken"
+2017-10-13 22:26:23.223 +02:00 [Debug] Getting claims for identity token for subject: "818727" and client: "spa"
+2017-10-13 22:26:23.224 +02:00 [Debug] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2017-10-13 22:26:23.228 +02:00 [Information] Authorize endpoint response
+"{
+  \"SubjectId\": \"818727\",
+  \"ClientId\": \"spa\",
+  \"RedirectUri\": \"http://localhost:5002/about\",
+  \"Scope\": \"openid profile todo\"
+}"
+2017-10-13 22:28:01.276 +02:00 [Debug] Request path "/connect/authorize" matched to endpoint type Authorize
+2017-10-13 22:28:01.277 +02:00 [Debug] Mapping found for endpoint: Authorize, creating handler: "IdentityServer4.Endpoints.AuthorizeEndpoint"
+2017-10-13 22:28:01.278 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.AuthorizeEndpoint" for "/connect/authorize"
+2017-10-13 22:28:01.280 +02:00 [Debug] Start authorize request
+2017-10-13 22:28:01.281 +02:00 [Debug] User in authorize request: "818727"
+2017-10-13 22:28:01.282 +02:00 [Debug] Start authorize request protocol validation
+2017-10-13 22:28:01.294 +02:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-13 22:28:01.342 +02:00 [Information] ValidatedAuthorizeRequest
+"{
+  \"ClientId\": \"spa\",
+  \"ClientName\": \"SPA Client\",
+  \"RedirectUri\": \"http://localhost:5002/about\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:5002/about\"
+  ],
+  \"SubjectId\": \"818727\",
+  \"ResponseType\": \"id_token token\",
+  \"ResponseMode\": \"fragment\",
+  \"GrantType\": \"implicit\",
+  \"RequestedScopes\": \"openid profile todo\",
+  \"Nonce\": \"n-0S6_WzA2Mj\",
+  \"SessionId\": \"2aee66c063f51cec7571a0d9fdcf244b\",
+  \"Raw\": {
+    \"response_type\": \"id_token token\",
+    \"client_id\": \"spa\",
+    \"redirect_uri\": \"http://localhost:5002/about\",
+    \"scope\": \"openid profile todo\",
+    \"nonce\": \"n-0S6_WzA2Mj\"
+  }
+}"
+2017-10-13 22:28:01.354 +02:00 [Debug] Creating Implicit Flow response.
+2017-10-13 22:28:01.363 +02:00 [Debug] Getting claims for access token for client: "spa"
+2017-10-13 22:28:01.365 +02:00 [Debug] Getting claims for access token for subject: "818727"
+2017-10-13 22:28:01.367 +02:00 [Debug] Get profile called for subject "818727" from client "SPA Client" with claim types [] via "ClaimsProviderAccessToken"
+2017-10-13 22:28:01.373 +02:00 [Debug] Getting claims for identity token for subject: "818727" and client: "spa"
+2017-10-13 22:28:01.374 +02:00 [Debug] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2017-10-13 22:28:01.378 +02:00 [Information] Authorize endpoint response
+"{
+  \"SubjectId\": \"818727\",
+  \"ClientId\": \"spa\",
+  \"RedirectUri\": \"http://localhost:5002/about\",
+  \"Scope\": \"openid profile todo\"
+}"
+2017-10-13 22:28:57.743 +02:00 [Debug] Request path "/connect/authorize" matched to endpoint type Authorize
+2017-10-13 22:28:57.745 +02:00 [Debug] Mapping found for endpoint: Authorize, creating handler: "IdentityServer4.Endpoints.AuthorizeEndpoint"
+2017-10-13 22:28:57.746 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.AuthorizeEndpoint" for "/connect/authorize"
+2017-10-13 22:28:57.747 +02:00 [Debug] Start authorize request
+2017-10-13 22:28:57.749 +02:00 [Debug] User in authorize request: "818727"
+2017-10-13 22:28:57.750 +02:00 [Debug] Start authorize request protocol validation
+2017-10-13 22:28:57.750 +02:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-13 22:28:57.828 +02:00 [Information] ValidatedAuthorizeRequest
+"{
+  \"ClientId\": \"spa\",
+  \"ClientName\": \"SPA Client\",
+  \"RedirectUri\": \"http://localhost:5002/about\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:5002/about\"
+  ],
+  \"SubjectId\": \"818727\",
+  \"ResponseType\": \"id_token token\",
+  \"ResponseMode\": \"fragment\",
+  \"GrantType\": \"implicit\",
+  \"RequestedScopes\": \"openid profile todo\",
+  \"Nonce\": \"n-0S6_WzA2Mj\",
+  \"SessionId\": \"2aee66c063f51cec7571a0d9fdcf244b\",
+  \"Raw\": {
+    \"response_type\": \"id_token token\",
+    \"client_id\": \"spa\",
+    \"redirect_uri\": \"http://localhost:5002/about\",
+    \"scope\": \"openid profile todo\",
+    \"nonce\": \"n-0S6_WzA2Mj\"
+  }
+}"
+2017-10-13 22:28:57.835 +02:00 [Debug] Creating Implicit Flow response.
+2017-10-13 22:28:57.837 +02:00 [Debug] Getting claims for access token for client: "spa"
+2017-10-13 22:28:57.838 +02:00 [Debug] Getting claims for access token for subject: "818727"
+2017-10-13 22:28:57.845 +02:00 [Debug] Get profile called for subject "818727" from client "SPA Client" with claim types [] via "ClaimsProviderAccessToken"
+2017-10-13 22:28:57.850 +02:00 [Debug] Getting claims for identity token for subject: "818727" and client: "spa"
+2017-10-13 22:28:57.851 +02:00 [Debug] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2017-10-13 22:28:57.856 +02:00 [Information] Authorize endpoint response
+"{
+  \"SubjectId\": \"818727\",
+  \"ClientId\": \"spa\",
+  \"RedirectUri\": \"http://localhost:5002/about\",
+  \"Scope\": \"openid profile todo\"
+}"
+2017-10-13 22:33:53.427 +02:00 [Debug] Request path "/connect/authorize" matched to endpoint type Authorize
+2017-10-13 22:33:53.428 +02:00 [Debug] Mapping found for endpoint: Authorize, creating handler: "IdentityServer4.Endpoints.AuthorizeEndpoint"
+2017-10-13 22:33:53.429 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.AuthorizeEndpoint" for "/connect/authorize"
+2017-10-13 22:33:53.430 +02:00 [Debug] Start authorize request
+2017-10-13 22:33:53.431 +02:00 [Debug] User in authorize request: "818727"
+2017-10-13 22:33:53.432 +02:00 [Debug] Start authorize request protocol validation
+2017-10-13 22:33:53.433 +02:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-13 22:33:53.434 +02:00 [Information] ValidatedAuthorizeRequest
+"{
+  \"ClientId\": \"spa\",
+  \"ClientName\": \"SPA Client\",
+  \"RedirectUri\": \"http://localhost:5002/about\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:5002/about\"
+  ],
+  \"SubjectId\": \"818727\",
+  \"ResponseType\": \"id_token token\",
+  \"ResponseMode\": \"fragment\",
+  \"GrantType\": \"implicit\",
+  \"RequestedScopes\": \"openid profile todo\",
+  \"Nonce\": \"n-0S6_WzA2Mj\",
+  \"SessionId\": \"2aee66c063f51cec7571a0d9fdcf244b\",
+  \"Raw\": {
+    \"response_type\": \"id_token token\",
+    \"client_id\": \"spa\",
+    \"redirect_uri\": \"http://localhost:5002/about\",
+    \"scope\": \"openid profile todo\",
+    \"nonce\": \"n-0S6_WzA2Mj\"
+  }
+}"
+2017-10-13 22:33:53.482 +02:00 [Debug] Creating Implicit Flow response.
+2017-10-13 22:33:53.499 +02:00 [Debug] Getting claims for access token for client: "spa"
+2017-10-13 22:33:53.500 +02:00 [Debug] Getting claims for access token for subject: "818727"
+2017-10-13 22:33:53.501 +02:00 [Debug] Get profile called for subject "818727" from client "SPA Client" with claim types [] via "ClaimsProviderAccessToken"
+2017-10-13 22:33:53.505 +02:00 [Debug] Getting claims for identity token for subject: "818727" and client: "spa"
+2017-10-13 22:33:53.507 +02:00 [Debug] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2017-10-13 22:33:53.512 +02:00 [Information] Authorize endpoint response
+"{
+  \"SubjectId\": \"818727\",
+  \"ClientId\": \"spa\",
+  \"RedirectUri\": \"http://localhost:5002/about\",
+  \"Scope\": \"openid profile todo\"
+}"
+2017-10-13 22:37:11.462 +02:00 [Debug] Request path "/connect/authorize" matched to endpoint type Authorize
+2017-10-13 22:37:11.463 +02:00 [Debug] Mapping found for endpoint: Authorize, creating handler: "IdentityServer4.Endpoints.AuthorizeEndpoint"
+2017-10-13 22:37:11.465 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.AuthorizeEndpoint" for "/connect/authorize"
+2017-10-13 22:37:11.466 +02:00 [Debug] Start authorize request
+2017-10-13 22:37:11.467 +02:00 [Debug] User in authorize request: "818727"
+2017-10-13 22:37:11.468 +02:00 [Debug] Start authorize request protocol validation
+2017-10-13 22:37:11.469 +02:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-13 22:37:11.550 +02:00 [Information] ValidatedAuthorizeRequest
+"{
+  \"ClientId\": \"spa\",
+  \"ClientName\": \"SPA Client\",
+  \"RedirectUri\": \"http://localhost:5002/about\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:5002/about\"
+  ],
+  \"SubjectId\": \"818727\",
+  \"ResponseType\": \"id_token token\",
+  \"ResponseMode\": \"fragment\",
+  \"GrantType\": \"implicit\",
+  \"RequestedScopes\": \"openid profile todo\",
+  \"Nonce\": \"n-0S6_WzA2Mj\",
+  \"SessionId\": \"2aee66c063f51cec7571a0d9fdcf244b\",
+  \"Raw\": {
+    \"response_type\": \"id_token token\",
+    \"client_id\": \"spa\",
+    \"redirect_uri\": \"http://localhost:5002/about\",
+    \"scope\": \"openid profile todo\",
+    \"nonce\": \"n-0S6_WzA2Mj\"
+  }
+}"
+2017-10-13 22:37:11.563 +02:00 [Debug] Creating Implicit Flow response.
+2017-10-13 22:37:11.564 +02:00 [Debug] Getting claims for access token for client: "spa"
+2017-10-13 22:37:11.565 +02:00 [Debug] Getting claims for access token for subject: "818727"
+2017-10-13 22:37:11.566 +02:00 [Debug] Get profile called for subject "818727" from client "SPA Client" with claim types [] via "ClaimsProviderAccessToken"
+2017-10-13 22:37:11.573 +02:00 [Debug] Getting claims for identity token for subject: "818727" and client: "spa"
+2017-10-13 22:37:11.575 +02:00 [Debug] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2017-10-13 22:37:11.580 +02:00 [Information] Authorize endpoint response
+"{
+  \"SubjectId\": \"818727\",
+  \"ClientId\": \"spa\",
+  \"RedirectUri\": \"http://localhost:5002/about\",
+  \"Scope\": \"openid profile todo\"
+}"
+2017-10-13 22:42:10.917 +02:00 [Debug] Request path "/connect/authorize" matched to endpoint type Authorize
+2017-10-13 22:42:10.918 +02:00 [Debug] Mapping found for endpoint: Authorize, creating handler: "IdentityServer4.Endpoints.AuthorizeEndpoint"
+2017-10-13 22:42:10.919 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.AuthorizeEndpoint" for "/connect/authorize"
+2017-10-13 22:42:10.922 +02:00 [Debug] Start authorize request
+2017-10-13 22:42:10.926 +02:00 [Debug] User in authorize request: "818727"
+2017-10-13 22:42:10.928 +02:00 [Debug] Start authorize request protocol validation
+2017-10-13 22:42:10.929 +02:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-13 22:42:10.930 +02:00 [Information] ValidatedAuthorizeRequest
+"{
+  \"ClientId\": \"spa\",
+  \"ClientName\": \"SPA Client\",
+  \"RedirectUri\": \"http://localhost:5002/about\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:5002/about\"
+  ],
+  \"SubjectId\": \"818727\",
+  \"ResponseType\": \"id_token token\",
+  \"ResponseMode\": \"fragment\",
+  \"GrantType\": \"implicit\",
+  \"RequestedScopes\": \"openid profile todo\",
+  \"Nonce\": \"n-0S6_WzA2Mj\",
+  \"SessionId\": \"2aee66c063f51cec7571a0d9fdcf244b\",
+  \"Raw\": {
+    \"response_type\": \"id_token token\",
+    \"client_id\": \"spa\",
+    \"redirect_uri\": \"http://localhost:5002/about\",
+    \"scope\": \"openid profile todo\",
+    \"nonce\": \"n-0S6_WzA2Mj\"
+  }
+}"
+2017-10-13 22:42:10.939 +02:00 [Debug] Creating Implicit Flow response.
+2017-10-13 22:42:10.982 +02:00 [Debug] Getting claims for access token for client: "spa"
+2017-10-13 22:42:11.004 +02:00 [Debug] Getting claims for access token for subject: "818727"
+2017-10-13 22:42:11.006 +02:00 [Debug] Get profile called for subject "818727" from client "SPA Client" with claim types [] via "ClaimsProviderAccessToken"
+2017-10-13 22:42:11.011 +02:00 [Debug] Getting claims for identity token for subject: "818727" and client: "spa"
+2017-10-13 22:42:11.012 +02:00 [Debug] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2017-10-13 22:42:11.016 +02:00 [Information] Authorize endpoint response
+"{
+  \"SubjectId\": \"818727\",
+  \"ClientId\": \"spa\",
+  \"RedirectUri\": \"http://localhost:5002/about\",
+  \"Scope\": \"openid profile todo\"
+}"
+2017-10-13 22:42:12.486 +02:00 [Debug] Request path "/.well-known/openid-configuration" matched to endpoint type Discovery
+2017-10-13 22:42:12.487 +02:00 [Debug] Mapping found for endpoint: Discovery, creating handler: "IdentityServer4.Endpoints.DiscoveryEndpoint"
+2017-10-13 22:42:12.490 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.DiscoveryEndpoint" for "/.well-known/openid-configuration"
+2017-10-13 22:42:12.496 +02:00 [Debug] Start discovery request
+2017-10-13 22:42:12.695 +02:00 [Debug] Request path "/.well-known/openid-configuration/jwks" matched to endpoint type Discovery
+2017-10-13 22:42:12.696 +02:00 [Debug] Mapping found for endpoint: Discovery, creating handler: "IdentityServer4.Endpoints.DiscoveryEndpoint"
+2017-10-13 22:42:12.697 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.DiscoveryEndpoint" for "/.well-known/openid-configuration/jwks"
+2017-10-13 22:42:12.701 +02:00 [Debug] Start key discovery request
+2017-10-13 22:56:29.625 +02:00 [Debug] Request path "/connect/authorize" matched to endpoint type Authorize
+2017-10-13 22:56:29.629 +02:00 [Debug] Mapping found for endpoint: Authorize, creating handler: "IdentityServer4.Endpoints.AuthorizeEndpoint"
+2017-10-13 22:56:29.630 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.AuthorizeEndpoint" for "/connect/authorize"
+2017-10-13 22:56:29.631 +02:00 [Debug] Start authorize request
+2017-10-13 22:56:29.633 +02:00 [Debug] User in authorize request: "818727"
+2017-10-13 22:56:29.634 +02:00 [Debug] Start authorize request protocol validation
+2017-10-13 22:56:29.636 +02:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-13 22:56:29.637 +02:00 [Information] ValidatedAuthorizeRequest
+"{
+  \"ClientId\": \"spa\",
+  \"ClientName\": \"SPA Client\",
+  \"RedirectUri\": \"http://localhost:5002/about\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:5002/about\"
+  ],
+  \"SubjectId\": \"818727\",
+  \"ResponseType\": \"id_token token\",
+  \"ResponseMode\": \"fragment\",
+  \"GrantType\": \"implicit\",
+  \"RequestedScopes\": \"openid profile todo\",
+  \"Nonce\": \"n-0S6_WzA2Mj\",
+  \"SessionId\": \"2aee66c063f51cec7571a0d9fdcf244b\",
+  \"Raw\": {
+    \"response_type\": \"id_token token\",
+    \"client_id\": \"spa\",
+    \"redirect_uri\": \"http://localhost:5002/about\",
+    \"scope\": \"openid profile todo\",
+    \"nonce\": \"n-0S6_WzA2Mj\"
+  }
+}"
+2017-10-13 22:56:29.743 +02:00 [Debug] Creating Implicit Flow response.
+2017-10-13 22:56:29.745 +02:00 [Debug] Getting claims for access token for client: "spa"
+2017-10-13 22:56:29.747 +02:00 [Debug] Getting claims for access token for subject: "818727"
+2017-10-13 22:56:29.748 +02:00 [Debug] Get profile called for subject "818727" from client "SPA Client" with claim types [] via "ClaimsProviderAccessToken"
+2017-10-13 22:56:29.753 +02:00 [Debug] Getting claims for identity token for subject: "818727" and client: "spa"
+2017-10-13 22:56:29.757 +02:00 [Debug] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2017-10-13 22:56:29.764 +02:00 [Information] Authorize endpoint response
+"{
+  \"SubjectId\": \"818727\",
+  \"ClientId\": \"spa\",
+  \"RedirectUri\": \"http://localhost:5002/about\",
+  \"Scope\": \"openid profile todo\"
+}"
+2017-10-13 22:56:33.987 +02:00 [Debug] Request path "/.well-known/openid-configuration" matched to endpoint type Discovery
+2017-10-13 22:56:33.988 +02:00 [Debug] Mapping found for endpoint: Discovery, creating handler: "IdentityServer4.Endpoints.DiscoveryEndpoint"
+2017-10-13 22:56:33.989 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.DiscoveryEndpoint" for "/.well-known/openid-configuration"
+2017-10-13 22:56:33.990 +02:00 [Debug] Start discovery request
+2017-10-13 22:56:34.107 +02:00 [Debug] Request path "/.well-known/openid-configuration/jwks" matched to endpoint type Discovery
+2017-10-13 22:56:34.108 +02:00 [Debug] Mapping found for endpoint: Discovery, creating handler: "IdentityServer4.Endpoints.DiscoveryEndpoint"
+2017-10-13 22:56:34.109 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.DiscoveryEndpoint" for "/.well-known/openid-configuration/jwks"
+2017-10-13 22:56:34.110 +02:00 [Debug] Start key discovery request
+2017-10-13 22:59:02.583 +02:00 [Debug] Request path "/connect/authorize" matched to endpoint type Authorize
+2017-10-13 22:59:02.597 +02:00 [Debug] Mapping found for endpoint: Authorize, creating handler: "IdentityServer4.Endpoints.AuthorizeEndpoint"
+2017-10-13 22:59:02.619 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.AuthorizeEndpoint" for "/connect/authorize"
+2017-10-13 22:59:02.679 +02:00 [Debug] Start authorize request
+2017-10-13 22:59:02.681 +02:00 [Debug] User in authorize request: "818727"
+2017-10-13 22:59:02.681 +02:00 [Debug] Start authorize request protocol validation
+2017-10-13 22:59:02.694 +02:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-13 22:59:02.696 +02:00 [Information] ValidatedAuthorizeRequest
+"{
+  \"ClientId\": \"spa\",
+  \"ClientName\": \"SPA Client\",
+  \"RedirectUri\": \"http://localhost:5002/about\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:5002/about\"
+  ],
+  \"SubjectId\": \"818727\",
+  \"ResponseType\": \"id_token token\",
+  \"ResponseMode\": \"fragment\",
+  \"GrantType\": \"implicit\",
+  \"RequestedScopes\": \"openid profile todo\",
+  \"Nonce\": \"n-0S6_WzA2Mj\",
+  \"SessionId\": \"2aee66c063f51cec7571a0d9fdcf244b\",
+  \"Raw\": {
+    \"response_type\": \"id_token token\",
+    \"client_id\": \"spa\",
+    \"redirect_uri\": \"http://localhost:5002/about\",
+    \"scope\": \"openid profile todo\",
+    \"nonce\": \"n-0S6_WzA2Mj\"
+  }
+}"
+2017-10-13 22:59:02.713 +02:00 [Debug] Creating Implicit Flow response.
+2017-10-13 22:59:02.714 +02:00 [Debug] Getting claims for access token for client: "spa"
+2017-10-13 22:59:02.716 +02:00 [Debug] Getting claims for access token for subject: "818727"
+2017-10-13 22:59:02.718 +02:00 [Debug] Get profile called for subject "818727" from client "SPA Client" with claim types [] via "ClaimsProviderAccessToken"
+2017-10-13 22:59:02.723 +02:00 [Debug] Getting claims for identity token for subject: "818727" and client: "spa"
+2017-10-13 22:59:02.724 +02:00 [Debug] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2017-10-13 22:59:02.729 +02:00 [Information] Authorize endpoint response
+"{
+  \"SubjectId\": \"818727\",
+  \"ClientId\": \"spa\",
+  \"RedirectUri\": \"http://localhost:5002/about\",
+  \"Scope\": \"openid profile todo\"
+}"
+2017-10-13 22:59:04.016 +02:00 [Debug] Request path "/.well-known/openid-configuration" matched to endpoint type Discovery
+2017-10-13 22:59:04.017 +02:00 [Debug] Mapping found for endpoint: Discovery, creating handler: "IdentityServer4.Endpoints.DiscoveryEndpoint"
+2017-10-13 22:59:04.018 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.DiscoveryEndpoint" for "/.well-known/openid-configuration"
+2017-10-13 22:59:04.019 +02:00 [Debug] Start discovery request
+2017-10-13 22:59:04.152 +02:00 [Debug] Request path "/.well-known/openid-configuration/jwks" matched to endpoint type Discovery
+2017-10-13 22:59:04.155 +02:00 [Debug] Mapping found for endpoint: Discovery, creating handler: "IdentityServer4.Endpoints.DiscoveryEndpoint"
+2017-10-13 22:59:04.155 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.DiscoveryEndpoint" for "/.well-known/openid-configuration/jwks"
+2017-10-13 22:59:04.156 +02:00 [Debug] Start key discovery request
+2017-10-13 23:02:26.880 +02:00 [Debug] Request path "/connect/authorize" matched to endpoint type Authorize
+2017-10-13 23:02:26.887 +02:00 [Debug] Mapping found for endpoint: Authorize, creating handler: "IdentityServer4.Endpoints.AuthorizeEndpoint"
+2017-10-13 23:02:27.017 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.AuthorizeEndpoint" for "/connect/authorize"
+2017-10-13 23:02:27.100 +02:00 [Debug] Start authorize request
+2017-10-13 23:02:27.103 +02:00 [Debug] User in authorize request: "818727"
+2017-10-13 23:02:27.114 +02:00 [Debug] Start authorize request protocol validation
+2017-10-13 23:02:27.153 +02:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-13 23:02:27.167 +02:00 [Information] ValidatedAuthorizeRequest
+"{
+  \"ClientId\": \"spa\",
+  \"ClientName\": \"SPA Client\",
+  \"RedirectUri\": \"http://localhost:5002/about\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:5002/about\"
+  ],
+  \"SubjectId\": \"818727\",
+  \"ResponseType\": \"id_token token\",
+  \"ResponseMode\": \"fragment\",
+  \"GrantType\": \"implicit\",
+  \"RequestedScopes\": \"openid profile todo\",
+  \"Nonce\": \"n-0S6_WzA2Mj\",
+  \"SessionId\": \"2aee66c063f51cec7571a0d9fdcf244b\",
+  \"Raw\": {
+    \"response_type\": \"id_token token\",
+    \"client_id\": \"spa\",
+    \"redirect_uri\": \"http://localhost:5002/about\",
+    \"scope\": \"openid profile todo\",
+    \"nonce\": \"n-0S6_WzA2Mj\"
+  }
+}"
+2017-10-13 23:02:27.182 +02:00 [Debug] Creating Implicit Flow response.
+2017-10-13 23:02:27.202 +02:00 [Debug] Getting claims for access token for client: "spa"
+2017-10-13 23:02:27.207 +02:00 [Debug] Getting claims for access token for subject: "818727"
+2017-10-13 23:02:27.209 +02:00 [Debug] Get profile called for subject "818727" from client "SPA Client" with claim types [] via "ClaimsProviderAccessToken"
+2017-10-13 23:02:27.282 +02:00 [Debug] Getting claims for identity token for subject: "818727" and client: "spa"
+2017-10-13 23:02:27.283 +02:00 [Debug] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2017-10-13 23:02:27.288 +02:00 [Information] Authorize endpoint response
+"{
+  \"SubjectId\": \"818727\",
+  \"ClientId\": \"spa\",
+  \"RedirectUri\": \"http://localhost:5002/about\",
+  \"Scope\": \"openid profile todo\"
+}"
+2017-10-13 23:02:28.804 +02:00 [Debug] Request path "/.well-known/openid-configuration" matched to endpoint type Discovery
+2017-10-13 23:02:28.805 +02:00 [Debug] Mapping found for endpoint: Discovery, creating handler: "IdentityServer4.Endpoints.DiscoveryEndpoint"
+2017-10-13 23:02:28.806 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.DiscoveryEndpoint" for "/.well-known/openid-configuration"
+2017-10-13 23:02:28.807 +02:00 [Debug] Start discovery request
+2017-10-13 23:02:28.942 +02:00 [Debug] Request path "/.well-known/openid-configuration/jwks" matched to endpoint type Discovery
+2017-10-13 23:02:28.944 +02:00 [Debug] Mapping found for endpoint: Discovery, creating handler: "IdentityServer4.Endpoints.DiscoveryEndpoint"
+2017-10-13 23:02:28.945 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.DiscoveryEndpoint" for "/.well-known/openid-configuration/jwks"
+2017-10-13 23:02:28.946 +02:00 [Debug] Start key discovery request
+2017-10-13 23:13:04.242 +02:00 [Debug] Request path "/connect/authorize" matched to endpoint type Authorize
+2017-10-13 23:13:04.243 +02:00 [Debug] Mapping found for endpoint: Authorize, creating handler: "IdentityServer4.Endpoints.AuthorizeEndpoint"
+2017-10-13 23:13:04.245 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.AuthorizeEndpoint" for "/connect/authorize"
+2017-10-13 23:13:04.246 +02:00 [Debug] Start authorize request
+2017-10-13 23:13:04.248 +02:00 [Debug] User in authorize request: "818727"
+2017-10-13 23:13:04.249 +02:00 [Debug] Start authorize request protocol validation
+2017-10-13 23:13:04.250 +02:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-13 23:13:04.252 +02:00 [Information] ValidatedAuthorizeRequest
+"{
+  \"ClientId\": \"spa\",
+  \"ClientName\": \"SPA Client\",
+  \"RedirectUri\": \"http://localhost:5002/about\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:5002/about\"
+  ],
+  \"SubjectId\": \"818727\",
+  \"ResponseType\": \"id_token token\",
+  \"ResponseMode\": \"fragment\",
+  \"GrantType\": \"implicit\",
+  \"RequestedScopes\": \"openid profile todo\",
+  \"Nonce\": \"n-0S6_WzA2Mj\",
+  \"SessionId\": \"2aee66c063f51cec7571a0d9fdcf244b\",
+  \"Raw\": {
+    \"response_type\": \"id_token token\",
+    \"client_id\": \"spa\",
+    \"redirect_uri\": \"http://localhost:5002/about\",
+    \"scope\": \"openid profile todo\",
+    \"nonce\": \"n-0S6_WzA2Mj\"
+  }
+}"
+2017-10-13 23:13:04.271 +02:00 [Debug] Creating Implicit Flow response.
+2017-10-13 23:13:04.332 +02:00 [Debug] Getting claims for access token for client: "spa"
+2017-10-13 23:13:04.333 +02:00 [Debug] Getting claims for access token for subject: "818727"
+2017-10-13 23:13:04.335 +02:00 [Debug] Get profile called for subject "818727" from client "SPA Client" with claim types [] via "ClaimsProviderAccessToken"
+2017-10-13 23:13:04.341 +02:00 [Debug] Getting claims for identity token for subject: "818727" and client: "spa"
+2017-10-13 23:13:04.343 +02:00 [Debug] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2017-10-13 23:13:04.348 +02:00 [Information] Authorize endpoint response
+"{
+  \"SubjectId\": \"818727\",
+  \"ClientId\": \"spa\",
+  \"RedirectUri\": \"http://localhost:5002/about\",
+  \"Scope\": \"openid profile todo\"
+}"
+2017-10-13 23:13:05.517 +02:00 [Debug] Request path "/.well-known/openid-configuration" matched to endpoint type Discovery
+2017-10-13 23:13:05.519 +02:00 [Debug] Mapping found for endpoint: Discovery, creating handler: "IdentityServer4.Endpoints.DiscoveryEndpoint"
+2017-10-13 23:13:05.520 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.DiscoveryEndpoint" for "/.well-known/openid-configuration"
+2017-10-13 23:13:05.521 +02:00 [Debug] Start discovery request
+2017-10-13 23:13:05.626 +02:00 [Debug] Request path "/.well-known/openid-configuration/jwks" matched to endpoint type Discovery
+2017-10-13 23:13:05.629 +02:00 [Debug] Mapping found for endpoint: Discovery, creating handler: "IdentityServer4.Endpoints.DiscoveryEndpoint"
+2017-10-13 23:13:05.630 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.DiscoveryEndpoint" for "/.well-known/openid-configuration/jwks"
+2017-10-13 23:13:05.631 +02:00 [Debug] Start key discovery request
+2017-10-14 11:06:05.459 +02:00 [Information] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2017-10-14 11:06:05.579 +02:00 [Debug] Using built-in CookieAuthentication middleware with scheme: "idsrv"
+2017-10-14 11:06:05.602 +02:00 [Debug] Adding CookieAuthentication middleware for external authentication with scheme: "idsrv.external"
+2017-10-14 11:07:31.259 +02:00 [Debug] Request path "/connect/authorize" matched to endpoint type Authorize
+2017-10-14 11:07:31.284 +02:00 [Debug] Mapping found for endpoint: Authorize, creating handler: "IdentityServer4.Endpoints.AuthorizeEndpoint"
+2017-10-14 11:07:31.309 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.AuthorizeEndpoint" for "/connect/authorize"
+2017-10-14 11:07:31.334 +02:00 [Debug] Start authorize request
+2017-10-14 11:07:31.406 +02:00 [Debug] No user present in authorize request
+2017-10-14 11:07:31.420 +02:00 [Debug] Start authorize request protocol validation
+2017-10-14 11:07:31.522 +02:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-14 11:07:31.694 +02:00 [Information] ValidatedAuthorizeRequest
+"{
+  \"ClientId\": \"spa\",
+  \"ClientName\": \"SPA Client\",
+  \"RedirectUri\": \"http://localhost:5002/about\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:5002/about\"
+  ],
+  \"SubjectId\": \"anonymous\",
+  \"ResponseType\": \"id_token token\",
+  \"ResponseMode\": \"fragment\",
+  \"GrantType\": \"implicit\",
+  \"RequestedScopes\": \"openid profile todo\",
+  \"Nonce\": \"n-0S6_WzA2Mj\",
+  \"Raw\": {
+    \"response_type\": \"id_token token\",
+    \"client_id\": \"spa\",
+    \"redirect_uri\": \"http://localhost:5002/about\",
+    \"scope\": \"openid profile todo\",
+    \"nonce\": \"n-0S6_WzA2Mj\"
+  }
+}"
+2017-10-14 11:07:31.711 +02:00 [Information] Showing login: User is not authenticated
+2017-10-14 11:07:32.805 +02:00 [Debug] Start authorize request protocol validation
+2017-10-14 11:07:32.810 +02:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-14 11:07:45.553 +02:00 [Debug] Augmenting SignInContext
+2017-10-14 11:07:45.617 +02:00 [Debug] Request path "/connect/authorize/login" matched to endpoint type Authorize
+2017-10-14 11:07:45.620 +02:00 [Debug] Mapping found for endpoint: Authorize, creating handler: "IdentityServer4.Endpoints.AuthorizeEndpoint"
+2017-10-14 11:07:45.622 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.AuthorizeEndpoint" for "/connect/authorize/login"
+2017-10-14 11:07:45.630 +02:00 [Debug] Start authorize request (after login)
+2017-10-14 11:07:45.632 +02:00 [Debug] User in authorize request: "818727"
+2017-10-14 11:07:45.633 +02:00 [Debug] Start authorize request protocol validation
+2017-10-14 11:07:45.635 +02:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-14 11:07:45.638 +02:00 [Information] ValidatedAuthorizeRequest
+"{
+  \"ClientId\": \"spa\",
+  \"ClientName\": \"SPA Client\",
+  \"RedirectUri\": \"http://localhost:5002/about\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:5002/about\"
+  ],
+  \"SubjectId\": \"818727\",
+  \"ResponseType\": \"id_token token\",
+  \"ResponseMode\": \"fragment\",
+  \"GrantType\": \"implicit\",
+  \"RequestedScopes\": \"openid profile todo\",
+  \"Nonce\": \"n-0S6_WzA2Mj\",
+  \"SessionId\": \"3a4a3bc1dd0f1cf26d5069b0c333a57f\",
+  \"Raw\": {
+    \"response_type\": \"id_token token\",
+    \"client_id\": \"spa\",
+    \"redirect_uri\": \"http://localhost:5002/about\",
+    \"scope\": \"openid profile todo\",
+    \"nonce\": \"n-0S6_WzA2Mj\"
+  }
+}"
+2017-10-14 11:07:45.655 +02:00 [Debug] "user_consent" grant with value: "spa|818727" not found in store.
+2017-10-14 11:07:45.658 +02:00 [Information] Showing consent: User has not yet consented
+2017-10-14 11:07:45.673 +02:00 [Debug] Start authorize request protocol validation
+2017-10-14 11:07:45.677 +02:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-14 11:07:48.849 +02:00 [Debug] Start authorize request protocol validation
+2017-10-14 11:07:48.852 +02:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-14 11:07:48.885 +02:00 [Debug] Request path "/connect/authorize/consent" matched to endpoint type Authorize
+2017-10-14 11:07:48.888 +02:00 [Debug] Mapping found for endpoint: Authorize, creating handler: "IdentityServer4.Endpoints.AuthorizeEndpoint"
+2017-10-14 11:07:48.891 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.AuthorizeEndpoint" for "/connect/authorize/consent"
+2017-10-14 11:07:48.900 +02:00 [Debug] Start authorize request (after consent)
+2017-10-14 11:07:48.934 +02:00 [Debug] User in authorize request: "818727"
+2017-10-14 11:07:48.937 +02:00 [Debug] Start authorize request protocol validation
+2017-10-14 11:07:48.939 +02:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-14 11:07:48.941 +02:00 [Information] ValidatedAuthorizeRequest
+"{
+  \"ClientId\": \"spa\",
+  \"ClientName\": \"SPA Client\",
+  \"RedirectUri\": \"http://localhost:5002/about\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:5002/about\"
+  ],
+  \"SubjectId\": \"818727\",
+  \"ResponseType\": \"id_token token\",
+  \"ResponseMode\": \"fragment\",
+  \"GrantType\": \"implicit\",
+  \"RequestedScopes\": \"openid profile todo\",
+  \"Nonce\": \"n-0S6_WzA2Mj\",
+  \"SessionId\": \"3a4a3bc1dd0f1cf26d5069b0c333a57f\",
+  \"Raw\": {
+    \"response_type\": \"id_token token\",
+    \"client_id\": \"spa\",
+    \"redirect_uri\": \"http://localhost:5002/about\",
+    \"scope\": \"openid profile todo\",
+    \"nonce\": \"n-0S6_WzA2Mj\"
+  }
+}"
+2017-10-14 11:07:48.946 +02:00 [Debug] "user_consent" grant with value: "spa|818727" not found in store.
+2017-10-14 11:07:48.957 +02:00 [Information] User consented to scopes: ["openid", "profile", "todo"]
+2017-10-14 11:07:48.966 +02:00 [Debug] User indicated to remember consent for scopes: ["openid", "profile", "todo"]
+2017-10-14 11:07:48.996 +02:00 [Debug] Creating Implicit Flow response.
+2017-10-14 11:07:49.009 +02:00 [Debug] Getting claims for access token for client: "spa"
+2017-10-14 11:07:49.012 +02:00 [Debug] Getting claims for access token for subject: "818727"
+2017-10-14 11:07:49.018 +02:00 [Debug] Get profile called for subject "818727" from client "SPA Client" with claim types [] via "ClaimsProviderAccessToken"
+2017-10-14 11:07:49.107 +02:00 [Debug] Getting claims for identity token for subject: "818727" and client: "spa"
+2017-10-14 11:07:49.110 +02:00 [Debug] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2017-10-14 11:07:49.126 +02:00 [Information] Authorize endpoint response
+"{
+  \"SubjectId\": \"818727\",
+  \"ClientId\": \"spa\",
+  \"RedirectUri\": \"http://localhost:5002/about\",
+  \"Scope\": \"openid profile todo\"
+}"
+2017-10-14 11:07:49.149 +02:00 [Debug] Augmenting SignInContext
+2017-10-14 11:07:50.120 +02:00 [Debug] Request path "/.well-known/openid-configuration" matched to endpoint type Discovery
+2017-10-14 11:07:50.125 +02:00 [Debug] Mapping found for endpoint: Discovery, creating handler: "IdentityServer4.Endpoints.DiscoveryEndpoint"
+2017-10-14 11:07:50.134 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.DiscoveryEndpoint" for "/.well-known/openid-configuration"
+2017-10-14 11:07:50.151 +02:00 [Debug] Start discovery request
+2017-10-14 11:07:50.295 +02:00 [Debug] Request path "/.well-known/openid-configuration/jwks" matched to endpoint type Discovery
+2017-10-14 11:07:50.297 +02:00 [Debug] Mapping found for endpoint: Discovery, creating handler: "IdentityServer4.Endpoints.DiscoveryEndpoint"
+2017-10-14 11:07:50.299 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.DiscoveryEndpoint" for "/.well-known/openid-configuration/jwks"
+2017-10-14 11:07:50.304 +02:00 [Debug] Start key discovery request
+2017-10-14 11:08:50.803 +02:00 [Debug] Request path "/connect/authorize" matched to endpoint type Authorize
+2017-10-14 11:08:50.817 +02:00 [Debug] Mapping found for endpoint: Authorize, creating handler: "IdentityServer4.Endpoints.AuthorizeEndpoint"
+2017-10-14 11:08:50.820 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.AuthorizeEndpoint" for "/connect/authorize"
+2017-10-14 11:08:50.827 +02:00 [Debug] Start authorize request
+2017-10-14 11:08:50.830 +02:00 [Debug] User in authorize request: "818727"
+2017-10-14 11:08:50.835 +02:00 [Debug] Start authorize request protocol validation
+2017-10-14 11:08:50.839 +02:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-14 11:08:50.841 +02:00 [Information] ValidatedAuthorizeRequest
+"{
+  \"ClientId\": \"spa\",
+  \"ClientName\": \"SPA Client\",
+  \"RedirectUri\": \"http://localhost:5002/about\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:5002/about\"
+  ],
+  \"SubjectId\": \"818727\",
+  \"ResponseType\": \"id_token token\",
+  \"ResponseMode\": \"fragment\",
+  \"GrantType\": \"implicit\",
+  \"RequestedScopes\": \"openid profile todo\",
+  \"Nonce\": \"n-0S6_WzA2Mj\",
+  \"SessionId\": \"3a4a3bc1dd0f1cf26d5069b0c333a57f\",
+  \"Raw\": {
+    \"response_type\": \"id_token token\",
+    \"client_id\": \"spa\",
+    \"redirect_uri\": \"http://localhost:5002/about\",
+    \"scope\": \"openid profile todo\",
+    \"nonce\": \"n-0S6_WzA2Mj\"
+  }
+}"
+2017-10-14 11:08:50.863 +02:00 [Debug] Creating Implicit Flow response.
+2017-10-14 11:08:50.864 +02:00 [Debug] Getting claims for access token for client: "spa"
+2017-10-14 11:08:50.865 +02:00 [Debug] Getting claims for access token for subject: "818727"
+2017-10-14 11:08:50.866 +02:00 [Debug] Get profile called for subject "818727" from client "SPA Client" with claim types [] via "ClaimsProviderAccessToken"
+2017-10-14 11:08:50.871 +02:00 [Debug] Getting claims for identity token for subject: "818727" and client: "spa"
+2017-10-14 11:08:50.872 +02:00 [Debug] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2017-10-14 11:08:50.878 +02:00 [Information] Authorize endpoint response
+"{
+  \"SubjectId\": \"818727\",
+  \"ClientId\": \"spa\",
+  \"RedirectUri\": \"http://localhost:5002/about\",
+  \"Scope\": \"openid profile todo\"
+}"
+2017-10-14 11:08:51.871 +02:00 [Debug] Request path "/.well-known/openid-configuration" matched to endpoint type Discovery
+2017-10-14 11:08:51.872 +02:00 [Debug] Mapping found for endpoint: Discovery, creating handler: "IdentityServer4.Endpoints.DiscoveryEndpoint"
+2017-10-14 11:08:51.873 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.DiscoveryEndpoint" for "/.well-known/openid-configuration"
+2017-10-14 11:08:51.874 +02:00 [Debug] Start discovery request
+2017-10-14 11:08:51.958 +02:00 [Debug] Request path "/.well-known/openid-configuration/jwks" matched to endpoint type Discovery
+2017-10-14 11:08:51.959 +02:00 [Debug] Mapping found for endpoint: Discovery, creating handler: "IdentityServer4.Endpoints.DiscoveryEndpoint"
+2017-10-14 11:08:51.961 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.DiscoveryEndpoint" for "/.well-known/openid-configuration/jwks"
+2017-10-14 11:08:51.962 +02:00 [Debug] Start key discovery request
+2017-10-14 11:16:29.924 +02:00 [Debug] Request path "/connect/authorize" matched to endpoint type Authorize
+2017-10-14 11:16:29.931 +02:00 [Debug] Mapping found for endpoint: Authorize, creating handler: "IdentityServer4.Endpoints.AuthorizeEndpoint"
+2017-10-14 11:16:29.933 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.AuthorizeEndpoint" for "/connect/authorize"
+2017-10-14 11:16:29.935 +02:00 [Debug] Start authorize request
+2017-10-14 11:16:29.936 +02:00 [Debug] User in authorize request: "818727"
+2017-10-14 11:16:29.941 +02:00 [Debug] Start authorize request protocol validation
+2017-10-14 11:16:29.943 +02:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-14 11:16:29.947 +02:00 [Information] ValidatedAuthorizeRequest
+"{
+  \"ClientId\": \"spa\",
+  \"ClientName\": \"SPA Client\",
+  \"RedirectUri\": \"http://localhost:5002/about\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:5002/about\"
+  ],
+  \"SubjectId\": \"818727\",
+  \"ResponseType\": \"id_token token\",
+  \"ResponseMode\": \"fragment\",
+  \"GrantType\": \"implicit\",
+  \"RequestedScopes\": \"openid profile todo\",
+  \"Nonce\": \"n-0S6_WzA2Mj\",
+  \"SessionId\": \"3a4a3bc1dd0f1cf26d5069b0c333a57f\",
+  \"Raw\": {
+    \"response_type\": \"id_token token\",
+    \"client_id\": \"spa\",
+    \"redirect_uri\": \"http://localhost:5002/about\",
+    \"scope\": \"openid profile todo\",
+    \"nonce\": \"n-0S6_WzA2Mj\"
+  }
+}"
+2017-10-14 11:16:29.979 +02:00 [Debug] Creating Implicit Flow response.
+2017-10-14 11:16:29.985 +02:00 [Debug] Getting claims for access token for client: "spa"
+2017-10-14 11:16:29.986 +02:00 [Debug] Getting claims for access token for subject: "818727"
+2017-10-14 11:16:29.987 +02:00 [Debug] Get profile called for subject "818727" from client "SPA Client" with claim types [] via "ClaimsProviderAccessToken"
+2017-10-14 11:16:29.996 +02:00 [Debug] Getting claims for identity token for subject: "818727" and client: "spa"
+2017-10-14 11:16:29.999 +02:00 [Debug] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2017-10-14 11:16:30.004 +02:00 [Information] Authorize endpoint response
+"{
+  \"SubjectId\": \"818727\",
+  \"ClientId\": \"spa\",
+  \"RedirectUri\": \"http://localhost:5002/about\",
+  \"Scope\": \"openid profile todo\"
+}"
+2017-10-14 11:16:31.486 +02:00 [Debug] Request path "/.well-known/openid-configuration" matched to endpoint type Discovery
+2017-10-14 11:16:31.487 +02:00 [Debug] Mapping found for endpoint: Discovery, creating handler: "IdentityServer4.Endpoints.DiscoveryEndpoint"
+2017-10-14 11:16:31.488 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.DiscoveryEndpoint" for "/.well-known/openid-configuration"
+2017-10-14 11:16:31.490 +02:00 [Debug] Start discovery request
+2017-10-14 11:16:31.622 +02:00 [Debug] Request path "/.well-known/openid-configuration/jwks" matched to endpoint type Discovery
+2017-10-14 11:16:31.625 +02:00 [Debug] Mapping found for endpoint: Discovery, creating handler: "IdentityServer4.Endpoints.DiscoveryEndpoint"
+2017-10-14 11:16:31.626 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.DiscoveryEndpoint" for "/.well-known/openid-configuration/jwks"
+2017-10-14 11:16:31.628 +02:00 [Debug] Start key discovery request
+2017-10-14 11:23:51.101 +02:00 [Debug] Request path "/connect/authorize" matched to endpoint type Authorize
+2017-10-14 11:23:51.102 +02:00 [Debug] Mapping found for endpoint: Authorize, creating handler: "IdentityServer4.Endpoints.AuthorizeEndpoint"
+2017-10-14 11:23:51.104 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.AuthorizeEndpoint" for "/connect/authorize"
+2017-10-14 11:23:51.110 +02:00 [Debug] Start authorize request
+2017-10-14 11:23:51.117 +02:00 [Debug] User in authorize request: "818727"
+2017-10-14 11:23:51.118 +02:00 [Debug] Start authorize request protocol validation
+2017-10-14 11:23:51.121 +02:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-14 11:23:51.122 +02:00 [Information] ValidatedAuthorizeRequest
+"{
+  \"ClientId\": \"spa\",
+  \"ClientName\": \"SPA Client\",
+  \"RedirectUri\": \"http://localhost:5002/about\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:5002/about\"
+  ],
+  \"SubjectId\": \"818727\",
+  \"ResponseType\": \"id_token token\",
+  \"ResponseMode\": \"fragment\",
+  \"GrantType\": \"implicit\",
+  \"RequestedScopes\": \"openid profile todo\",
+  \"Nonce\": \"n-0S6_WzA2Mj\",
+  \"SessionId\": \"3a4a3bc1dd0f1cf26d5069b0c333a57f\",
+  \"Raw\": {
+    \"response_type\": \"id_token token\",
+    \"client_id\": \"spa\",
+    \"redirect_uri\": \"http://localhost:5002/about\",
+    \"scope\": \"openid profile todo\",
+    \"nonce\": \"n-0S6_WzA2Mj\"
+  }
+}"
+2017-10-14 11:23:51.172 +02:00 [Debug] Creating Implicit Flow response.
+2017-10-14 11:23:51.173 +02:00 [Debug] Getting claims for access token for client: "spa"
+2017-10-14 11:23:51.176 +02:00 [Debug] Getting claims for access token for subject: "818727"
+2017-10-14 11:23:51.177 +02:00 [Debug] Get profile called for subject "818727" from client "SPA Client" with claim types [] via "ClaimsProviderAccessToken"
+2017-10-14 11:23:51.187 +02:00 [Debug] Getting claims for identity token for subject: "818727" and client: "spa"
+2017-10-14 11:23:51.188 +02:00 [Debug] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2017-10-14 11:23:51.196 +02:00 [Information] Authorize endpoint response
+"{
+  \"SubjectId\": \"818727\",
+  \"ClientId\": \"spa\",
+  \"RedirectUri\": \"http://localhost:5002/about\",
+  \"Scope\": \"openid profile todo\"
+}"
+2017-10-14 11:23:52.577 +02:00 [Debug] Request path "/.well-known/openid-configuration" matched to endpoint type Discovery
+2017-10-14 11:23:52.580 +02:00 [Debug] Mapping found for endpoint: Discovery, creating handler: "IdentityServer4.Endpoints.DiscoveryEndpoint"
+2017-10-14 11:23:52.581 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.DiscoveryEndpoint" for "/.well-known/openid-configuration"
+2017-10-14 11:23:52.582 +02:00 [Debug] Start discovery request
+2017-10-14 11:23:52.689 +02:00 [Debug] Request path "/.well-known/openid-configuration/jwks" matched to endpoint type Discovery
+2017-10-14 11:23:52.692 +02:00 [Debug] Mapping found for endpoint: Discovery, creating handler: "IdentityServer4.Endpoints.DiscoveryEndpoint"
+2017-10-14 11:23:52.693 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.DiscoveryEndpoint" for "/.well-known/openid-configuration/jwks"
+2017-10-14 11:23:52.694 +02:00 [Debug] Start key discovery request
+2017-10-14 11:27:23.098 +02:00 [Debug] Request path "/connect/authorize" matched to endpoint type Authorize
+2017-10-14 11:27:23.100 +02:00 [Debug] Mapping found for endpoint: Authorize, creating handler: "IdentityServer4.Endpoints.AuthorizeEndpoint"
+2017-10-14 11:27:23.101 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.AuthorizeEndpoint" for "/connect/authorize"
+2017-10-14 11:27:23.102 +02:00 [Debug] Start authorize request
+2017-10-14 11:27:23.105 +02:00 [Debug] User in authorize request: "818727"
+2017-10-14 11:27:23.106 +02:00 [Debug] Start authorize request protocol validation
+2017-10-14 11:27:23.110 +02:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-14 11:27:23.117 +02:00 [Information] ValidatedAuthorizeRequest
+"{
+  \"ClientId\": \"spa\",
+  \"ClientName\": \"SPA Client\",
+  \"RedirectUri\": \"http://localhost:5002/about\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:5002/about\"
+  ],
+  \"SubjectId\": \"818727\",
+  \"ResponseType\": \"id_token token\",
+  \"ResponseMode\": \"fragment\",
+  \"GrantType\": \"implicit\",
+  \"RequestedScopes\": \"openid profile todo\",
+  \"Nonce\": \"n-0S6_WzA2Mj\",
+  \"SessionId\": \"3a4a3bc1dd0f1cf26d5069b0c333a57f\",
+  \"Raw\": {
+    \"response_type\": \"id_token token\",
+    \"client_id\": \"spa\",
+    \"redirect_uri\": \"http://localhost:5002/about\",
+    \"scope\": \"openid profile todo\",
+    \"nonce\": \"n-0S6_WzA2Mj\"
+  }
+}"
+2017-10-14 11:27:23.138 +02:00 [Debug] Creating Implicit Flow response.
+2017-10-14 11:27:23.139 +02:00 [Debug] Getting claims for access token for client: "spa"
+2017-10-14 11:27:23.140 +02:00 [Debug] Getting claims for access token for subject: "818727"
+2017-10-14 11:27:23.141 +02:00 [Debug] Get profile called for subject "818727" from client "SPA Client" with claim types [] via "ClaimsProviderAccessToken"
+2017-10-14 11:27:23.149 +02:00 [Debug] Getting claims for identity token for subject: "818727" and client: "spa"
+2017-10-14 11:27:23.150 +02:00 [Debug] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2017-10-14 11:27:23.155 +02:00 [Information] Authorize endpoint response
+"{
+  \"SubjectId\": \"818727\",
+  \"ClientId\": \"spa\",
+  \"RedirectUri\": \"http://localhost:5002/about\",
+  \"Scope\": \"openid profile todo\"
+}"
+2017-10-14 11:29:47.749 +02:00 [Debug] Request path "/connect/authorize" matched to endpoint type Authorize
+2017-10-14 11:29:47.752 +02:00 [Debug] Mapping found for endpoint: Authorize, creating handler: "IdentityServer4.Endpoints.AuthorizeEndpoint"
+2017-10-14 11:29:47.753 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.AuthorizeEndpoint" for "/connect/authorize"
+2017-10-14 11:29:47.753 +02:00 [Debug] Start authorize request
+2017-10-14 11:29:47.754 +02:00 [Debug] User in authorize request: "818727"
+2017-10-14 11:29:47.755 +02:00 [Debug] Start authorize request protocol validation
+2017-10-14 11:29:47.756 +02:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-14 11:29:47.760 +02:00 [Information] ValidatedAuthorizeRequest
+"{
+  \"ClientId\": \"spa\",
+  \"ClientName\": \"SPA Client\",
+  \"RedirectUri\": \"http://localhost:5002/about\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:5002/about\"
+  ],
+  \"SubjectId\": \"818727\",
+  \"ResponseType\": \"id_token token\",
+  \"ResponseMode\": \"fragment\",
+  \"GrantType\": \"implicit\",
+  \"RequestedScopes\": \"openid profile todo\",
+  \"Nonce\": \"n-0S6_WzA2Mj\",
+  \"SessionId\": \"3a4a3bc1dd0f1cf26d5069b0c333a57f\",
+  \"Raw\": {
+    \"response_type\": \"id_token token\",
+    \"client_id\": \"spa\",
+    \"redirect_uri\": \"http://localhost:5002/about\",
+    \"scope\": \"openid profile todo\",
+    \"nonce\": \"n-0S6_WzA2Mj\"
+  }
+}"
+2017-10-14 11:29:47.786 +02:00 [Debug] Creating Implicit Flow response.
+2017-10-14 11:29:47.787 +02:00 [Debug] Getting claims for access token for client: "spa"
+2017-10-14 11:29:47.788 +02:00 [Debug] Getting claims for access token for subject: "818727"
+2017-10-14 11:29:47.789 +02:00 [Debug] Get profile called for subject "818727" from client "SPA Client" with claim types [] via "ClaimsProviderAccessToken"
+2017-10-14 11:29:47.797 +02:00 [Debug] Getting claims for identity token for subject: "818727" and client: "spa"
+2017-10-14 11:29:47.799 +02:00 [Debug] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2017-10-14 11:29:47.806 +02:00 [Information] Authorize endpoint response
+"{
+  \"SubjectId\": \"818727\",
+  \"ClientId\": \"spa\",
+  \"RedirectUri\": \"http://localhost:5002/about\",
+  \"Scope\": \"openid profile todo\"
+}"
+2017-10-14 11:31:06.366 +02:00 [Debug] Request path "/connect/authorize" matched to endpoint type Authorize
+2017-10-14 11:31:06.367 +02:00 [Debug] Mapping found for endpoint: Authorize, creating handler: "IdentityServer4.Endpoints.AuthorizeEndpoint"
+2017-10-14 11:31:06.368 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.AuthorizeEndpoint" for "/connect/authorize"
+2017-10-14 11:31:06.370 +02:00 [Debug] Start authorize request
+2017-10-14 11:31:06.371 +02:00 [Debug] User in authorize request: "818727"
+2017-10-14 11:31:06.372 +02:00 [Debug] Start authorize request protocol validation
+2017-10-14 11:31:06.387 +02:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-14 11:31:06.389 +02:00 [Information] ValidatedAuthorizeRequest
+"{
+  \"ClientId\": \"spa\",
+  \"ClientName\": \"SPA Client\",
+  \"RedirectUri\": \"http://localhost:5002/about\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:5002/about\"
+  ],
+  \"SubjectId\": \"818727\",
+  \"ResponseType\": \"id_token token\",
+  \"ResponseMode\": \"fragment\",
+  \"GrantType\": \"implicit\",
+  \"RequestedScopes\": \"openid profile todo\",
+  \"Nonce\": \"n-0S6_WzA2Mj\",
+  \"SessionId\": \"3a4a3bc1dd0f1cf26d5069b0c333a57f\",
+  \"Raw\": {
+    \"response_type\": \"id_token token\",
+    \"client_id\": \"spa\",
+    \"redirect_uri\": \"http://localhost:5002/about\",
+    \"scope\": \"openid profile todo\",
+    \"nonce\": \"n-0S6_WzA2Mj\"
+  }
+}"
+2017-10-14 11:31:06.405 +02:00 [Debug] Creating Implicit Flow response.
+2017-10-14 11:31:06.406 +02:00 [Debug] Getting claims for access token for client: "spa"
+2017-10-14 11:31:06.407 +02:00 [Debug] Getting claims for access token for subject: "818727"
+2017-10-14 11:31:06.408 +02:00 [Debug] Get profile called for subject "818727" from client "SPA Client" with claim types [] via "ClaimsProviderAccessToken"
+2017-10-14 11:31:06.415 +02:00 [Debug] Getting claims for identity token for subject: "818727" and client: "spa"
+2017-10-14 11:31:06.417 +02:00 [Debug] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2017-10-14 11:31:06.421 +02:00 [Information] Authorize endpoint response
+"{
+  \"SubjectId\": \"818727\",
+  \"ClientId\": \"spa\",
+  \"RedirectUri\": \"http://localhost:5002/about\",
+  \"Scope\": \"openid profile todo\"
+}"
+2017-10-14 11:31:11.024 +02:00 [Debug] Request path "/.well-known/openid-configuration" matched to endpoint type Discovery
+2017-10-14 11:31:11.025 +02:00 [Debug] Mapping found for endpoint: Discovery, creating handler: "IdentityServer4.Endpoints.DiscoveryEndpoint"
+2017-10-14 11:31:11.026 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.DiscoveryEndpoint" for "/.well-known/openid-configuration"
+2017-10-14 11:31:11.027 +02:00 [Debug] Start discovery request
+2017-10-14 11:31:11.138 +02:00 [Debug] Request path "/.well-known/openid-configuration/jwks" matched to endpoint type Discovery
+2017-10-14 11:31:11.141 +02:00 [Debug] Mapping found for endpoint: Discovery, creating handler: "IdentityServer4.Endpoints.DiscoveryEndpoint"
+2017-10-14 11:31:11.142 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.DiscoveryEndpoint" for "/.well-known/openid-configuration/jwks"
+2017-10-14 11:31:11.143 +02:00 [Debug] Start key discovery request
+2017-10-14 11:40:26.690 +02:00 [Information] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2017-10-14 11:40:26.754 +02:00 [Debug] Using built-in CookieAuthentication middleware with scheme: "idsrv"
+2017-10-14 11:40:26.786 +02:00 [Debug] Adding CookieAuthentication middleware for external authentication with scheme: "idsrv.external"
+2017-10-14 11:40:41.819 +02:00 [Debug] Request path "/connect/authorize" matched to endpoint type Authorize
+2017-10-14 11:40:41.829 +02:00 [Debug] Mapping found for endpoint: Authorize, creating handler: "IdentityServer4.Endpoints.AuthorizeEndpoint"
+2017-10-14 11:40:41.866 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.AuthorizeEndpoint" for "/connect/authorize"
+2017-10-14 11:40:41.886 +02:00 [Debug] Start authorize request
+2017-10-14 11:40:41.938 +02:00 [Debug] User in authorize request: "818727"
+2017-10-14 11:40:41.945 +02:00 [Debug] Start authorize request protocol validation
+2017-10-14 11:40:42.040 +02:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-14 11:40:42.211 +02:00 [Information] ValidatedAuthorizeRequest
+"{
+  \"ClientId\": \"spa\",
+  \"ClientName\": \"SPA Client\",
+  \"RedirectUri\": \"http://localhost:5002/about\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:5002/about\"
+  ],
+  \"SubjectId\": \"818727\",
+  \"ResponseType\": \"id_token token\",
+  \"ResponseMode\": \"fragment\",
+  \"GrantType\": \"implicit\",
+  \"RequestedScopes\": \"openid profile todo\",
+  \"Nonce\": \"n-0S6_WzA2Mj\",
+  \"SessionId\": \"3a4a3bc1dd0f1cf26d5069b0c333a57f\",
+  \"Raw\": {
+    \"response_type\": \"id_token token\",
+    \"client_id\": \"spa\",
+    \"redirect_uri\": \"http://localhost:5002/about\",
+    \"scope\": \"openid profile todo\",
+    \"nonce\": \"n-0S6_WzA2Mj\"
+  }
+}"
+2017-10-14 11:40:42.277 +02:00 [Debug] "user_consent" grant with value: "spa|818727" not found in store.
+2017-10-14 11:40:42.280 +02:00 [Information] Showing consent: User has not yet consented
+2017-10-14 11:40:43.120 +02:00 [Debug] Start authorize request protocol validation
+2017-10-14 11:40:43.124 +02:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-14 11:40:56.729 +02:00 [Debug] Start authorize request protocol validation
+2017-10-14 11:40:56.732 +02:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-14 11:40:56.782 +02:00 [Debug] Request path "/connect/authorize/consent" matched to endpoint type Authorize
+2017-10-14 11:40:56.785 +02:00 [Debug] Mapping found for endpoint: Authorize, creating handler: "IdentityServer4.Endpoints.AuthorizeEndpoint"
+2017-10-14 11:40:56.796 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.AuthorizeEndpoint" for "/connect/authorize/consent"
+2017-10-14 11:40:56.810 +02:00 [Debug] Start authorize request (after consent)
+2017-10-14 11:40:56.889 +02:00 [Debug] User in authorize request: "818727"
+2017-10-14 11:40:56.891 +02:00 [Debug] Start authorize request protocol validation
+2017-10-14 11:40:56.891 +02:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-14 11:40:56.893 +02:00 [Information] ValidatedAuthorizeRequest
+"{
+  \"ClientId\": \"spa\",
+  \"ClientName\": \"SPA Client\",
+  \"RedirectUri\": \"http://localhost:5002/about\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:5002/about\"
+  ],
+  \"SubjectId\": \"818727\",
+  \"ResponseType\": \"id_token token\",
+  \"ResponseMode\": \"fragment\",
+  \"GrantType\": \"implicit\",
+  \"RequestedScopes\": \"openid profile todo\",
+  \"Nonce\": \"n-0S6_WzA2Mj\",
+  \"SessionId\": \"3a4a3bc1dd0f1cf26d5069b0c333a57f\",
+  \"Raw\": {
+    \"response_type\": \"id_token token\",
+    \"client_id\": \"spa\",
+    \"redirect_uri\": \"http://localhost:5002/about\",
+    \"scope\": \"openid profile todo\",
+    \"nonce\": \"n-0S6_WzA2Mj\"
+  }
+}"
+2017-10-14 11:40:56.894 +02:00 [Debug] "user_consent" grant with value: "spa|818727" not found in store.
+2017-10-14 11:40:56.905 +02:00 [Information] User consented to scopes: ["openid", "profile", "todo", "todo"]
+2017-10-14 11:40:56.913 +02:00 [Debug] User indicated to remember consent for scopes: ["openid", "profile", "todo"]
+2017-10-14 11:40:56.966 +02:00 [Debug] Creating Implicit Flow response.
+2017-10-14 11:40:56.983 +02:00 [Debug] Getting claims for access token for client: "spa"
+2017-10-14 11:40:56.985 +02:00 [Debug] Getting claims for access token for subject: "818727"
+2017-10-14 11:40:56.990 +02:00 [Debug] Get profile called for subject "818727" from client "SPA Client" with claim types [] via "ClaimsProviderAccessToken"
+2017-10-14 11:40:57.101 +02:00 [Debug] Getting claims for identity token for subject: "818727" and client: "spa"
+2017-10-14 11:40:57.103 +02:00 [Debug] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2017-10-14 11:40:57.124 +02:00 [Information] Authorize endpoint response
+"{
+  \"SubjectId\": \"818727\",
+  \"ClientId\": \"spa\",
+  \"RedirectUri\": \"http://localhost:5002/about\",
+  \"Scope\": \"openid profile todo\"
+}"
+2017-10-14 11:47:36.149 +02:00 [Debug] Request path "/connect/authorize" matched to endpoint type Authorize
+2017-10-14 11:47:36.155 +02:00 [Debug] Mapping found for endpoint: Authorize, creating handler: "IdentityServer4.Endpoints.AuthorizeEndpoint"
+2017-10-14 11:47:36.171 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.AuthorizeEndpoint" for "/connect/authorize"
+2017-10-14 11:47:36.175 +02:00 [Debug] Start authorize request
+2017-10-14 11:47:36.222 +02:00 [Debug] User in authorize request: "818727"
+2017-10-14 11:47:36.223 +02:00 [Debug] Start authorize request protocol validation
+2017-10-14 11:47:36.224 +02:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-14 11:47:36.225 +02:00 [Information] ValidatedAuthorizeRequest
+"{
+  \"ClientId\": \"spa\",
+  \"ClientName\": \"SPA Client\",
+  \"RedirectUri\": \"http://localhost:5002/about\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:5002/about\"
+  ],
+  \"SubjectId\": \"818727\",
+  \"ResponseType\": \"id_token token\",
+  \"ResponseMode\": \"fragment\",
+  \"GrantType\": \"implicit\",
+  \"RequestedScopes\": \"openid profile todo\",
+  \"Nonce\": \"n-0S6_WzA2Mj\",
+  \"SessionId\": \"3a4a3bc1dd0f1cf26d5069b0c333a57f\",
+  \"Raw\": {
+    \"response_type\": \"id_token token\",
+    \"client_id\": \"spa\",
+    \"redirect_uri\": \"http://localhost:5002/about\",
+    \"scope\": \"openid profile todo\",
+    \"nonce\": \"n-0S6_WzA2Mj\"
+  }
+}"
+2017-10-14 11:47:36.264 +02:00 [Debug] Creating Implicit Flow response.
+2017-10-14 11:47:36.331 +02:00 [Debug] Getting claims for access token for client: "spa"
+2017-10-14 11:47:36.334 +02:00 [Debug] Getting claims for access token for subject: "818727"
+2017-10-14 11:47:36.336 +02:00 [Debug] Get profile called for subject "818727" from client "SPA Client" with claim types [] via "ClaimsProviderAccessToken"
+2017-10-14 11:47:36.345 +02:00 [Debug] Getting claims for identity token for subject: "818727" and client: "spa"
+2017-10-14 11:47:36.346 +02:00 [Debug] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2017-10-14 11:47:36.355 +02:00 [Information] Authorize endpoint response
+"{
+  \"SubjectId\": \"818727\",
+  \"ClientId\": \"spa\",
+  \"RedirectUri\": \"http://localhost:5002/about\",
+  \"Scope\": \"openid profile todo\"
+}"
+2017-10-14 11:47:41.544 +02:00 [Debug] Request path "/.well-known/openid-configuration" matched to endpoint type Discovery
+2017-10-14 11:47:41.545 +02:00 [Debug] Mapping found for endpoint: Discovery, creating handler: "IdentityServer4.Endpoints.DiscoveryEndpoint"
+2017-10-14 11:47:41.548 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.DiscoveryEndpoint" for "/.well-known/openid-configuration"
+2017-10-14 11:47:41.553 +02:00 [Debug] Start discovery request
+2017-10-14 11:47:41.845 +02:00 [Debug] Request path "/.well-known/openid-configuration/jwks" matched to endpoint type Discovery
+2017-10-14 11:47:41.847 +02:00 [Debug] Mapping found for endpoint: Discovery, creating handler: "IdentityServer4.Endpoints.DiscoveryEndpoint"
+2017-10-14 11:47:41.848 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.DiscoveryEndpoint" for "/.well-known/openid-configuration/jwks"
+2017-10-14 11:47:41.853 +02:00 [Debug] Start key discovery request
+2017-10-14 14:40:24.461 +02:00 [Debug] Request path "/connect/authorize" matched to endpoint type Authorize
+2017-10-14 14:40:24.465 +02:00 [Debug] Mapping found for endpoint: Authorize, creating handler: "IdentityServer4.Endpoints.AuthorizeEndpoint"
+2017-10-14 14:40:24.468 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.AuthorizeEndpoint" for "/connect/authorize"
+2017-10-14 14:40:24.472 +02:00 [Debug] Start authorize request
+2017-10-14 14:40:24.473 +02:00 [Debug] User in authorize request: "818727"
+2017-10-14 14:40:24.474 +02:00 [Debug] Start authorize request protocol validation
+2017-10-14 14:40:24.476 +02:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-14 14:40:24.478 +02:00 [Information] ValidatedAuthorizeRequest
+"{
+  \"ClientId\": \"spa\",
+  \"ClientName\": \"SPA Client\",
+  \"RedirectUri\": \"http://localhost:5002/about\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:5002/about\"
+  ],
+  \"SubjectId\": \"818727\",
+  \"ResponseType\": \"id_token token\",
+  \"ResponseMode\": \"fragment\",
+  \"GrantType\": \"implicit\",
+  \"RequestedScopes\": \"openid profile todo\",
+  \"Nonce\": \"n-0S6_WzA2Mj\",
+  \"SessionId\": \"3a4a3bc1dd0f1cf26d5069b0c333a57f\",
+  \"Raw\": {
+    \"response_type\": \"id_token token\",
+    \"client_id\": \"spa\",
+    \"redirect_uri\": \"http://localhost:5002/about\",
+    \"scope\": \"openid profile todo\",
+    \"nonce\": \"n-0S6_WzA2Mj\"
+  }
+}"
+2017-10-14 14:40:24.507 +02:00 [Debug] Creating Implicit Flow response.
+2017-10-14 14:40:24.509 +02:00 [Debug] Getting claims for access token for client: "spa"
+2017-10-14 14:40:24.510 +02:00 [Debug] Getting claims for access token for subject: "818727"
+2017-10-14 14:40:24.511 +02:00 [Debug] Get profile called for subject "818727" from client "SPA Client" with claim types [] via "ClaimsProviderAccessToken"
+2017-10-14 14:40:24.520 +02:00 [Debug] Getting claims for identity token for subject: "818727" and client: "spa"
+2017-10-14 14:40:24.522 +02:00 [Debug] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2017-10-14 14:40:24.529 +02:00 [Information] Authorize endpoint response
+"{
+  \"SubjectId\": \"818727\",
+  \"ClientId\": \"spa\",
+  \"RedirectUri\": \"http://localhost:5002/about\",
+  \"Scope\": \"openid profile todo\"
+}"
+2017-10-14 19:04:59.866 +02:00 [Information] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2017-10-14 19:04:59.917 +02:00 [Debug] Using built-in CookieAuthentication middleware with scheme: "idsrv"
+2017-10-14 19:04:59.925 +02:00 [Debug] Adding CookieAuthentication middleware for external authentication with scheme: "idsrv.external"
+2017-10-14 19:06:21.557 +02:00 [Debug] Request path "/connect/authorize" matched to endpoint type Authorize
+2017-10-14 19:06:21.567 +02:00 [Debug] Mapping found for endpoint: Authorize, creating handler: "IdentityServer4.Endpoints.AuthorizeEndpoint"
+2017-10-14 19:06:21.584 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.AuthorizeEndpoint" for "/connect/authorize"
+2017-10-14 19:06:21.628 +02:00 [Debug] Start authorize request
+2017-10-14 19:06:21.663 +02:00 [Debug] User in authorize request: "818727"
+2017-10-14 19:06:21.673 +02:00 [Debug] Start authorize request protocol validation
+2017-10-14 19:06:21.761 +02:00 [Error] Invalid scope: "todo"
+2017-10-14 19:06:21.766 +02:00 [Error] Request validation failed
+2017-10-14 19:06:21.944 +02:00 [Information] "{
+  \"ClientId\": \"spa\",
+  \"ClientName\": \"SPA Client\",
+  \"RedirectUri\": \"http://localhost:5002/about\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:5002/about\"
+  ],
+  \"SubjectId\": \"818727\",
+  \"ResponseType\": \"id_token token\",
+  \"ResponseMode\": \"fragment\",
+  \"GrantType\": \"implicit\",
+  \"RequestedScopes\": \"openid profile todo\",
+  \"Raw\": {
+    \"response_type\": \"id_token token\",
+    \"client_id\": \"spa\",
+    \"redirect_uri\": \"http://localhost:5002/about\",
+    \"scope\": \"openid profile todo\",
+    \"nonce\": \"n-0S6_WzA2Mj\"
+  }
+}"
+2017-10-14 19:07:07.274 +02:00 [Information] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2017-10-14 19:07:07.325 +02:00 [Debug] Using built-in CookieAuthentication middleware with scheme: "idsrv"
+2017-10-14 19:07:07.345 +02:00 [Debug] Adding CookieAuthentication middleware for external authentication with scheme: "idsrv.external"
+2017-10-14 19:07:19.376 +02:00 [Debug] Request path "/connect/authorize" matched to endpoint type Authorize
+2017-10-14 19:07:19.386 +02:00 [Debug] Mapping found for endpoint: Authorize, creating handler: "IdentityServer4.Endpoints.AuthorizeEndpoint"
+2017-10-14 19:07:19.395 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.AuthorizeEndpoint" for "/connect/authorize"
+2017-10-14 19:07:19.425 +02:00 [Debug] Start authorize request
+2017-10-14 19:07:19.499 +02:00 [Debug] User in authorize request: "818727"
+2017-10-14 19:07:19.505 +02:00 [Debug] Start authorize request protocol validation
+2017-10-14 19:07:19.566 +02:00 [Error] Invalid scope: "todo"
+2017-10-14 19:07:19.571 +02:00 [Error] Request validation failed
+2017-10-14 19:07:19.707 +02:00 [Information] "{
+  \"ClientId\": \"spa\",
+  \"ClientName\": \"SPA Client\",
+  \"RedirectUri\": \"http://localhost:5002/about\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:5002/about\"
+  ],
+  \"SubjectId\": \"818727\",
+  \"ResponseType\": \"id_token token\",
+  \"ResponseMode\": \"fragment\",
+  \"GrantType\": \"implicit\",
+  \"RequestedScopes\": \"openid profile todo\",
+  \"Raw\": {
+    \"response_type\": \"id_token token\",
+    \"client_id\": \"spa\",
+    \"redirect_uri\": \"http://localhost:5002/about\",
+    \"scope\": \"openid profile todo\",
+    \"nonce\": \"n-0S6_WzA2Mj\"
+  }
+}"
+2017-10-14 19:11:09.434 +02:00 [Debug] Request path "/connect/authorize" matched to endpoint type Authorize
+2017-10-14 19:11:09.435 +02:00 [Debug] Mapping found for endpoint: Authorize, creating handler: "IdentityServer4.Endpoints.AuthorizeEndpoint"
+2017-10-14 19:11:09.437 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.AuthorizeEndpoint" for "/connect/authorize"
+2017-10-14 19:11:09.446 +02:00 [Debug] Start authorize request
+2017-10-14 19:11:09.448 +02:00 [Debug] User in authorize request: "818727"
+2017-10-14 19:11:09.449 +02:00 [Debug] Start authorize request protocol validation
+2017-10-14 19:11:09.470 +02:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-14 19:11:09.472 +02:00 [Information] ValidatedAuthorizeRequest
+"{
+  \"ClientId\": \"spa\",
+  \"ClientName\": \"SPA Client\",
+  \"RedirectUri\": \"http://localhost:5002/about\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:5002/about\"
+  ],
+  \"SubjectId\": \"818727\",
+  \"ResponseType\": \"id_token token\",
+  \"ResponseMode\": \"fragment\",
+  \"GrantType\": \"implicit\",
+  \"RequestedScopes\": \"openid profile agenda\",
+  \"Nonce\": \"n-0S6_WzA2Mj\",
+  \"SessionId\": \"3a4a3bc1dd0f1cf26d5069b0c333a57f\",
+  \"Raw\": {
+    \"response_type\": \"id_token token\",
+    \"client_id\": \"spa\",
+    \"redirect_uri\": \"http://localhost:5002/about\",
+    \"scope\": \"openid profile agenda\",
+    \"nonce\": \"n-0S6_WzA2Mj\"
+  }
+}"
+2017-10-14 19:11:09.514 +02:00 [Debug] "user_consent" grant with value: "spa|818727" not found in store.
+2017-10-14 19:11:09.553 +02:00 [Information] Showing consent: User has not yet consented
+2017-10-14 19:11:09.627 +02:00 [Debug] Start authorize request protocol validation
+2017-10-14 19:11:09.631 +02:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-14 19:11:13.520 +02:00 [Debug] Start authorize request protocol validation
+2017-10-14 19:11:13.522 +02:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-14 19:11:13.562 +02:00 [Debug] Request path "/connect/authorize/consent" matched to endpoint type Authorize
+2017-10-14 19:11:13.565 +02:00 [Debug] Mapping found for endpoint: Authorize, creating handler: "IdentityServer4.Endpoints.AuthorizeEndpoint"
+2017-10-14 19:11:13.566 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.AuthorizeEndpoint" for "/connect/authorize/consent"
+2017-10-14 19:11:13.576 +02:00 [Debug] Start authorize request (after consent)
+2017-10-14 19:11:13.588 +02:00 [Debug] User in authorize request: "818727"
+2017-10-14 19:11:13.590 +02:00 [Debug] Start authorize request protocol validation
+2017-10-14 19:11:13.592 +02:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-14 19:11:13.593 +02:00 [Information] ValidatedAuthorizeRequest
+"{
+  \"ClientId\": \"spa\",
+  \"ClientName\": \"SPA Client\",
+  \"RedirectUri\": \"http://localhost:5002/about\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:5002/about\"
+  ],
+  \"SubjectId\": \"818727\",
+  \"ResponseType\": \"id_token token\",
+  \"ResponseMode\": \"fragment\",
+  \"GrantType\": \"implicit\",
+  \"RequestedScopes\": \"openid profile agenda\",
+  \"Nonce\": \"n-0S6_WzA2Mj\",
+  \"SessionId\": \"3a4a3bc1dd0f1cf26d5069b0c333a57f\",
+  \"Raw\": {
+    \"response_type\": \"id_token token\",
+    \"client_id\": \"spa\",
+    \"redirect_uri\": \"http://localhost:5002/about\",
+    \"scope\": \"openid profile agenda\",
+    \"nonce\": \"n-0S6_WzA2Mj\"
+  }
+}"
+2017-10-14 19:11:13.595 +02:00 [Debug] "user_consent" grant with value: "spa|818727" not found in store.
+2017-10-14 19:11:13.603 +02:00 [Information] User consented to scopes: ["openid", "profile", "agenda", "agenda"]
+2017-10-14 19:11:13.612 +02:00 [Debug] User indicated to remember consent for scopes: ["openid", "profile", "agenda"]
+2017-10-14 19:11:13.659 +02:00 [Debug] Creating Implicit Flow response.
+2017-10-14 19:11:13.678 +02:00 [Debug] Getting claims for access token for client: "spa"
+2017-10-14 19:11:13.680 +02:00 [Debug] Getting claims for access token for subject: "818727"
+2017-10-14 19:11:13.686 +02:00 [Debug] Get profile called for subject "818727" from client "SPA Client" with claim types [] via "ClaimsProviderAccessToken"
+2017-10-14 19:11:13.804 +02:00 [Debug] Getting claims for identity token for subject: "818727" and client: "spa"
+2017-10-14 19:11:13.805 +02:00 [Debug] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2017-10-14 19:11:13.829 +02:00 [Information] Authorize endpoint response
+"{
+  \"SubjectId\": \"818727\",
+  \"ClientId\": \"spa\",
+  \"RedirectUri\": \"http://localhost:5002/about\",
+  \"Scope\": \"openid profile agenda\"
+}"
+2017-10-14 19:11:58.188 +02:00 [Debug] Request path "/connect/authorize" matched to endpoint type Authorize
+2017-10-14 19:11:58.194 +02:00 [Debug] Mapping found for endpoint: Authorize, creating handler: "IdentityServer4.Endpoints.AuthorizeEndpoint"
+2017-10-14 19:11:58.194 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.AuthorizeEndpoint" for "/connect/authorize"
+2017-10-14 19:11:58.195 +02:00 [Debug] Start authorize request
+2017-10-14 19:11:58.196 +02:00 [Debug] User in authorize request: "818727"
+2017-10-14 19:11:58.197 +02:00 [Debug] Start authorize request protocol validation
+2017-10-14 19:11:58.198 +02:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-14 19:11:58.199 +02:00 [Information] ValidatedAuthorizeRequest
+"{
+  \"ClientId\": \"spa\",
+  \"ClientName\": \"SPA Client\",
+  \"RedirectUri\": \"http://localhost:5002/about\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:5002/about\"
+  ],
+  \"SubjectId\": \"818727\",
+  \"ResponseType\": \"id_token token\",
+  \"ResponseMode\": \"fragment\",
+  \"GrantType\": \"implicit\",
+  \"RequestedScopes\": \"openid profile agenda\",
+  \"Nonce\": \"n-0S6_WzA2Mj\",
+  \"SessionId\": \"3a4a3bc1dd0f1cf26d5069b0c333a57f\",
+  \"Raw\": {
+    \"response_type\": \"id_token token\",
+    \"client_id\": \"spa\",
+    \"redirect_uri\": \"http://localhost:5002/about\",
+    \"scope\": \"openid profile agenda\",
+    \"nonce\": \"n-0S6_WzA2Mj\"
+  }
+}"
+2017-10-14 19:11:58.230 +02:00 [Debug] Creating Implicit Flow response.
+2017-10-14 19:11:58.233 +02:00 [Debug] Getting claims for access token for client: "spa"
+2017-10-14 19:11:58.234 +02:00 [Debug] Getting claims for access token for subject: "818727"
+2017-10-14 19:11:58.235 +02:00 [Debug] Get profile called for subject "818727" from client "SPA Client" with claim types [] via "ClaimsProviderAccessToken"
+2017-10-14 19:11:58.245 +02:00 [Debug] Getting claims for identity token for subject: "818727" and client: "spa"
+2017-10-14 19:11:58.247 +02:00 [Debug] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2017-10-14 19:11:58.255 +02:00 [Information] Authorize endpoint response
+"{
+  \"SubjectId\": \"818727\",
+  \"ClientId\": \"spa\",
+  \"RedirectUri\": \"http://localhost:5002/about\",
+  \"Scope\": \"openid profile agenda\"
+}"
+2017-10-14 19:12:00.306 +02:00 [Debug] Request path "/.well-known/openid-configuration" matched to endpoint type Discovery
+2017-10-14 19:12:00.311 +02:00 [Debug] Mapping found for endpoint: Discovery, creating handler: "IdentityServer4.Endpoints.DiscoveryEndpoint"
+2017-10-14 19:12:00.315 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.DiscoveryEndpoint" for "/.well-known/openid-configuration"
+2017-10-14 19:12:00.321 +02:00 [Debug] Start discovery request
+2017-10-14 19:12:00.687 +02:00 [Debug] Request path "/.well-known/openid-configuration/jwks" matched to endpoint type Discovery
+2017-10-14 19:12:00.689 +02:00 [Debug] Mapping found for endpoint: Discovery, creating handler: "IdentityServer4.Endpoints.DiscoveryEndpoint"
+2017-10-14 19:12:00.691 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.DiscoveryEndpoint" for "/.well-known/openid-configuration/jwks"
+2017-10-14 19:12:00.695 +02:00 [Debug] Start key discovery request
+2017-10-14 19:12:49.982 +02:00 [Debug] Request path "/connect/authorize" matched to endpoint type Authorize
+2017-10-14 19:12:49.985 +02:00 [Debug] Mapping found for endpoint: Authorize, creating handler: "IdentityServer4.Endpoints.AuthorizeEndpoint"
+2017-10-14 19:12:49.993 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.AuthorizeEndpoint" for "/connect/authorize"
+2017-10-14 19:12:49.999 +02:00 [Debug] Start authorize request
+2017-10-14 19:12:50.039 +02:00 [Debug] User in authorize request: "818727"
+2017-10-14 19:12:50.050 +02:00 [Debug] Start authorize request protocol validation
+2017-10-14 19:12:50.052 +02:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-14 19:12:50.053 +02:00 [Information] ValidatedAuthorizeRequest
+"{
+  \"ClientId\": \"spa\",
+  \"ClientName\": \"SPA Client\",
+  \"RedirectUri\": \"http://localhost:5002/about\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:5002/about\"
+  ],
+  \"SubjectId\": \"818727\",
+  \"ResponseType\": \"id_token token\",
+  \"ResponseMode\": \"fragment\",
+  \"GrantType\": \"implicit\",
+  \"RequestedScopes\": \"openid profile agenda\",
+  \"Nonce\": \"n-0S6_WzA2Mj\",
+  \"SessionId\": \"3a4a3bc1dd0f1cf26d5069b0c333a57f\",
+  \"Raw\": {
+    \"response_type\": \"id_token token\",
+    \"client_id\": \"spa\",
+    \"redirect_uri\": \"http://localhost:5002/about\",
+    \"scope\": \"openid profile agenda\",
+    \"nonce\": \"n-0S6_WzA2Mj\"
+  }
+}"
+2017-10-14 19:12:50.085 +02:00 [Debug] Creating Implicit Flow response.
+2017-10-14 19:12:50.088 +02:00 [Debug] Getting claims for access token for client: "spa"
+2017-10-14 19:12:50.090 +02:00 [Debug] Getting claims for access token for subject: "818727"
+2017-10-14 19:12:50.094 +02:00 [Debug] Get profile called for subject "818727" from client "SPA Client" with claim types [] via "ClaimsProviderAccessToken"
+2017-10-14 19:12:50.102 +02:00 [Debug] Getting claims for identity token for subject: "818727" and client: "spa"
+2017-10-14 19:12:50.107 +02:00 [Debug] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2017-10-14 19:12:50.115 +02:00 [Information] Authorize endpoint response
+"{
+  \"SubjectId\": \"818727\",
+  \"ClientId\": \"spa\",
+  \"RedirectUri\": \"http://localhost:5002/about\",
+  \"Scope\": \"openid profile agenda\"
+}"
+2017-10-14 19:12:51.826 +02:00 [Debug] Request path "/.well-known/openid-configuration" matched to endpoint type Discovery
+2017-10-14 19:12:51.828 +02:00 [Debug] Mapping found for endpoint: Discovery, creating handler: "IdentityServer4.Endpoints.DiscoveryEndpoint"
+2017-10-14 19:12:51.828 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.DiscoveryEndpoint" for "/.well-known/openid-configuration"
+2017-10-14 19:12:51.829 +02:00 [Debug] Start discovery request
+2017-10-14 19:12:52.056 +02:00 [Debug] Request path "/.well-known/openid-configuration/jwks" matched to endpoint type Discovery
+2017-10-14 19:12:52.057 +02:00 [Debug] Mapping found for endpoint: Discovery, creating handler: "IdentityServer4.Endpoints.DiscoveryEndpoint"
+2017-10-14 19:12:52.061 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.DiscoveryEndpoint" for "/.well-known/openid-configuration/jwks"
+2017-10-14 19:12:52.063 +02:00 [Debug] Start key discovery request
+2017-10-22 14:17:43.221 +02:00 [Information] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2017-10-22 14:17:43.294 +02:00 [Debug] Using built-in CookieAuthentication middleware with scheme: "idsrv"
+2017-10-22 14:17:43.302 +02:00 [Debug] Adding CookieAuthentication middleware for external authentication with scheme: "idsrv.external"
+2017-10-22 14:33:35.821 +02:00 [Debug] Request path "/connect/authorize" matched to endpoint type Authorize
+2017-10-22 14:33:35.829 +02:00 [Debug] Mapping found for endpoint: Authorize, creating handler: "IdentityServer4.Endpoints.AuthorizeEndpoint"
+2017-10-22 14:33:35.838 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.AuthorizeEndpoint" for "/connect/authorize"
+2017-10-22 14:33:35.849 +02:00 [Debug] Start authorize request
+2017-10-22 14:33:35.908 +02:00 [Debug] No user present in authorize request
+2017-10-22 14:33:35.915 +02:00 [Debug] Start authorize request protocol validation
+2017-10-22 14:33:36.022 +02:00 [Error] Invalid redirect_uri: http://localhost:5002/agenda
+"{
+  \"ClientId\": \"spa\",
+  \"ClientName\": \"SPA Client\",
+  \"RedirectUri\": \"http://localhost:5002/agenda\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:5002/about\"
+  ],
+  \"SubjectId\": \"anonymous\",
+  \"RequestedScopes\": \"\",
+  \"Raw\": {
+    \"response_type\": \"id_token token\",
+    \"client_id\": \"spa\",
+    \"redirect_uri\": \"http://localhost:5002/agenda\",
+    \"scope\": \"openid profile agenda\",
+    \"nonce\": \"n-0S6_WzA2Mj\"
+  }
+}"
+2017-10-22 14:33:36.026 +02:00 [Error] Request validation failed
+2017-10-22 14:33:36.027 +02:00 [Information] "{
+  \"ClientId\": \"spa\",
+  \"ClientName\": \"SPA Client\",
+  \"RedirectUri\": \"http://localhost:5002/agenda\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:5002/about\"
+  ],
+  \"SubjectId\": \"anonymous\",
+  \"RequestedScopes\": \"\",
+  \"Raw\": {
+    \"response_type\": \"id_token token\",
+    \"client_id\": \"spa\",
+    \"redirect_uri\": \"http://localhost:5002/agenda\",
+    \"scope\": \"openid profile agenda\",
+    \"nonce\": \"n-0S6_WzA2Mj\"
+  }
+}"
+2017-10-22 14:35:28.441 +02:00 [Debug] Request path "/connect/authorize" matched to endpoint type Authorize
+2017-10-22 14:35:28.443 +02:00 [Debug] Mapping found for endpoint: Authorize, creating handler: "IdentityServer4.Endpoints.AuthorizeEndpoint"
+2017-10-22 14:35:28.459 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.AuthorizeEndpoint" for "/connect/authorize"
+2017-10-22 14:35:28.461 +02:00 [Debug] Start authorize request
+2017-10-22 14:35:28.463 +02:00 [Debug] No user present in authorize request
+2017-10-22 14:35:28.466 +02:00 [Debug] Start authorize request protocol validation
+2017-10-22 14:35:28.473 +02:00 [Error] Invalid redirect_uri: http://localhost:5002/agenda
+"{
+  \"ClientId\": \"spa\",
+  \"ClientName\": \"SPA Client\",
+  \"RedirectUri\": \"http://localhost:5002/agenda\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:5002/about\"
+  ],
+  \"SubjectId\": \"anonymous\",
+  \"RequestedScopes\": \"\",
+  \"Raw\": {
+    \"response_type\": \"id_token token\",
+    \"client_id\": \"spa\",
+    \"redirect_uri\": \"http://localhost:5002/agenda\",
+    \"scope\": \"openid profile agenda\",
+    \"nonce\": \"n-0S6_WzA2Mj\"
+  }
+}"
+2017-10-22 14:35:28.491 +02:00 [Error] Request validation failed
+2017-10-22 14:35:28.492 +02:00 [Information] "{
+  \"ClientId\": \"spa\",
+  \"ClientName\": \"SPA Client\",
+  \"RedirectUri\": \"http://localhost:5002/agenda\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:5002/about\"
+  ],
+  \"SubjectId\": \"anonymous\",
+  \"RequestedScopes\": \"\",
+  \"Raw\": {
+    \"response_type\": \"id_token token\",
+    \"client_id\": \"spa\",
+    \"redirect_uri\": \"http://localhost:5002/agenda\",
+    \"scope\": \"openid profile agenda\",
+    \"nonce\": \"n-0S6_WzA2Mj\"
+  }
+}"
+2017-10-22 14:37:18.396 +02:00 [Information] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2017-10-22 14:37:18.445 +02:00 [Debug] Using built-in CookieAuthentication middleware with scheme: "idsrv"
+2017-10-22 14:37:18.459 +02:00 [Debug] Adding CookieAuthentication middleware for external authentication with scheme: "idsrv.external"
+2017-10-22 14:37:31.360 +02:00 [Debug] Request path "/connect/authorize" matched to endpoint type Authorize
+2017-10-22 14:37:31.368 +02:00 [Debug] Mapping found for endpoint: Authorize, creating handler: "IdentityServer4.Endpoints.AuthorizeEndpoint"
+2017-10-22 14:37:31.377 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.AuthorizeEndpoint" for "/connect/authorize"
+2017-10-22 14:37:31.388 +02:00 [Debug] Start authorize request
+2017-10-22 14:37:31.417 +02:00 [Debug] No user present in authorize request
+2017-10-22 14:37:31.424 +02:00 [Debug] Start authorize request protocol validation
+2017-10-22 14:37:31.506 +02:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-22 14:37:31.596 +02:00 [Information] ValidatedAuthorizeRequest
+"{
+  \"ClientId\": \"spa\",
+  \"ClientName\": \"SPA Client\",
+  \"RedirectUri\": \"http://localhost:5002/agenda\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:5002/agenda\"
+  ],
+  \"SubjectId\": \"anonymous\",
+  \"ResponseType\": \"id_token token\",
+  \"ResponseMode\": \"fragment\",
+  \"GrantType\": \"implicit\",
+  \"RequestedScopes\": \"openid profile agenda\",
+  \"Nonce\": \"n-0S6_WzA2Mj\",
+  \"Raw\": {
+    \"response_type\": \"id_token token\",
+    \"client_id\": \"spa\",
+    \"redirect_uri\": \"http://localhost:5002/agenda\",
+    \"scope\": \"openid profile agenda\",
+    \"nonce\": \"n-0S6_WzA2Mj\"
+  }
+}"
+2017-10-22 14:37:31.605 +02:00 [Information] Showing login: User is not authenticated
+2017-10-22 14:37:32.160 +02:00 [Debug] Start authorize request protocol validation
+2017-10-22 14:37:32.163 +02:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-22 14:37:44.047 +02:00 [Debug] Augmenting SignInContext
+2017-10-22 14:37:44.109 +02:00 [Debug] Request path "/connect/authorize/login" matched to endpoint type Authorize
+2017-10-22 14:37:44.110 +02:00 [Debug] Mapping found for endpoint: Authorize, creating handler: "IdentityServer4.Endpoints.AuthorizeEndpoint"
+2017-10-22 14:37:44.111 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.AuthorizeEndpoint" for "/connect/authorize/login"
+2017-10-22 14:37:44.115 +02:00 [Debug] Start authorize request (after login)
+2017-10-22 14:37:44.117 +02:00 [Debug] User in authorize request: "818727"
+2017-10-22 14:37:44.118 +02:00 [Debug] Start authorize request protocol validation
+2017-10-22 14:37:44.119 +02:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-22 14:37:44.119 +02:00 [Information] ValidatedAuthorizeRequest
+"{
+  \"ClientId\": \"spa\",
+  \"ClientName\": \"SPA Client\",
+  \"RedirectUri\": \"http://localhost:5002/agenda\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:5002/agenda\"
+  ],
+  \"SubjectId\": \"818727\",
+  \"ResponseType\": \"id_token token\",
+  \"ResponseMode\": \"fragment\",
+  \"GrantType\": \"implicit\",
+  \"RequestedScopes\": \"openid profile agenda\",
+  \"Nonce\": \"n-0S6_WzA2Mj\",
+  \"SessionId\": \"47da2c24e7e1b7c43cc0c35cb5902ccc\",
+  \"Raw\": {
+    \"response_type\": \"id_token token\",
+    \"client_id\": \"spa\",
+    \"redirect_uri\": \"http://localhost:5002/agenda\",
+    \"scope\": \"openid profile agenda\",
+    \"nonce\": \"n-0S6_WzA2Mj\"
+  }
+}"
+2017-10-22 14:37:44.134 +02:00 [Debug] "user_consent" grant with value: "spa|818727" not found in store.
+2017-10-22 14:37:44.135 +02:00 [Information] Showing consent: User has not yet consented
+2017-10-22 14:37:44.150 +02:00 [Debug] Start authorize request protocol validation
+2017-10-22 14:37:44.151 +02:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-22 14:37:48.124 +02:00 [Debug] Start authorize request protocol validation
+2017-10-22 14:37:48.125 +02:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-22 14:37:48.169 +02:00 [Debug] Request path "/connect/authorize/consent" matched to endpoint type Authorize
+2017-10-22 14:37:48.172 +02:00 [Debug] Mapping found for endpoint: Authorize, creating handler: "IdentityServer4.Endpoints.AuthorizeEndpoint"
+2017-10-22 14:37:48.174 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.AuthorizeEndpoint" for "/connect/authorize/consent"
+2017-10-22 14:37:48.181 +02:00 [Debug] Start authorize request (after consent)
+2017-10-22 14:37:48.231 +02:00 [Debug] User in authorize request: "818727"
+2017-10-22 14:37:48.232 +02:00 [Debug] Start authorize request protocol validation
+2017-10-22 14:37:48.233 +02:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-22 14:37:48.235 +02:00 [Information] ValidatedAuthorizeRequest
+"{
+  \"ClientId\": \"spa\",
+  \"ClientName\": \"SPA Client\",
+  \"RedirectUri\": \"http://localhost:5002/agenda\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:5002/agenda\"
+  ],
+  \"SubjectId\": \"818727\",
+  \"ResponseType\": \"id_token token\",
+  \"ResponseMode\": \"fragment\",
+  \"GrantType\": \"implicit\",
+  \"RequestedScopes\": \"openid profile agenda\",
+  \"Nonce\": \"n-0S6_WzA2Mj\",
+  \"SessionId\": \"47da2c24e7e1b7c43cc0c35cb5902ccc\",
+  \"Raw\": {
+    \"response_type\": \"id_token token\",
+    \"client_id\": \"spa\",
+    \"redirect_uri\": \"http://localhost:5002/agenda\",
+    \"scope\": \"openid profile agenda\",
+    \"nonce\": \"n-0S6_WzA2Mj\"
+  }
+}"
+2017-10-22 14:37:48.237 +02:00 [Debug] "user_consent" grant with value: "spa|818727" not found in store.
+2017-10-22 14:37:48.246 +02:00 [Information] User consented to scopes: ["openid", "profile", "agenda", "agenda"]
+2017-10-22 14:37:48.253 +02:00 [Debug] User indicated to remember consent for scopes: ["openid", "profile", "agenda"]
+2017-10-22 14:37:48.294 +02:00 [Debug] Creating Implicit Flow response.
+2017-10-22 14:37:48.312 +02:00 [Debug] Getting claims for access token for client: "spa"
+2017-10-22 14:37:48.313 +02:00 [Debug] Getting claims for access token for subject: "818727"
+2017-10-22 14:37:48.318 +02:00 [Debug] Get profile called for subject "818727" from client "SPA Client" with claim types [] via "ClaimsProviderAccessToken"
+2017-10-22 14:37:48.640 +02:00 [Debug] Getting claims for identity token for subject: "818727" and client: "spa"
+2017-10-22 14:37:48.643 +02:00 [Debug] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2017-10-22 14:37:48.666 +02:00 [Information] Authorize endpoint response
+"{
+  \"SubjectId\": \"818727\",
+  \"ClientId\": \"spa\",
+  \"RedirectUri\": \"http://localhost:5002/agenda\",
+  \"Scope\": \"openid profile agenda\"
+}"
+2017-10-22 14:37:48.706 +02:00 [Debug] Augmenting SignInContext
+2017-10-22 14:39:08.656 +02:00 [Debug] Request path "/connect/authorize" matched to endpoint type Authorize
+2017-10-22 14:39:08.658 +02:00 [Debug] Mapping found for endpoint: Authorize, creating handler: "IdentityServer4.Endpoints.AuthorizeEndpoint"
+2017-10-22 14:39:08.659 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.AuthorizeEndpoint" for "/connect/authorize"
+2017-10-22 14:39:08.660 +02:00 [Debug] Start authorize request
+2017-10-22 14:39:08.671 +02:00 [Debug] User in authorize request: "818727"
+2017-10-22 14:39:08.674 +02:00 [Debug] Start authorize request protocol validation
+2017-10-22 14:39:08.724 +02:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-22 14:39:08.727 +02:00 [Information] ValidatedAuthorizeRequest
+"{
+  \"ClientId\": \"spa\",
+  \"ClientName\": \"SPA Client\",
+  \"RedirectUri\": \"http://localhost:5002/agenda\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:5002/agenda\"
+  ],
+  \"SubjectId\": \"818727\",
+  \"ResponseType\": \"id_token token\",
+  \"ResponseMode\": \"fragment\",
+  \"GrantType\": \"implicit\",
+  \"RequestedScopes\": \"openid profile agenda\",
+  \"Nonce\": \"n-0S6_WzA2Mj\",
+  \"SessionId\": \"47da2c24e7e1b7c43cc0c35cb5902ccc\",
+  \"Raw\": {
+    \"response_type\": \"id_token token\",
+    \"client_id\": \"spa\",
+    \"redirect_uri\": \"http://localhost:5002/agenda\",
+    \"scope\": \"openid profile agenda\",
+    \"nonce\": \"n-0S6_WzA2Mj\"
+  }
+}"
+2017-10-22 14:39:08.776 +02:00 [Debug] Creating Implicit Flow response.
+2017-10-22 14:39:08.779 +02:00 [Debug] Getting claims for access token for client: "spa"
+2017-10-22 14:39:08.780 +02:00 [Debug] Getting claims for access token for subject: "818727"
+2017-10-22 14:39:08.781 +02:00 [Debug] Get profile called for subject "818727" from client "SPA Client" with claim types [] via "ClaimsProviderAccessToken"
+2017-10-22 14:39:08.792 +02:00 [Debug] Getting claims for identity token for subject: "818727" and client: "spa"
+2017-10-22 14:39:08.793 +02:00 [Debug] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2017-10-22 14:39:08.803 +02:00 [Information] Authorize endpoint response
+"{
+  \"SubjectId\": \"818727\",
+  \"ClientId\": \"spa\",
+  \"RedirectUri\": \"http://localhost:5002/agenda\",
+  \"Scope\": \"openid profile agenda\"
+}"
+2017-10-22 14:39:10.012 +02:00 [Debug] Request path "/.well-known/openid-configuration" matched to endpoint type Discovery
+2017-10-22 14:39:10.013 +02:00 [Debug] Mapping found for endpoint: Discovery, creating handler: "IdentityServer4.Endpoints.DiscoveryEndpoint"
+2017-10-22 14:39:10.016 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.DiscoveryEndpoint" for "/.well-known/openid-configuration"
+2017-10-22 14:39:10.022 +02:00 [Debug] Start discovery request
+2017-10-22 14:39:10.335 +02:00 [Debug] Request path "/.well-known/openid-configuration/jwks" matched to endpoint type Discovery
+2017-10-22 14:39:10.336 +02:00 [Debug] Mapping found for endpoint: Discovery, creating handler: "IdentityServer4.Endpoints.DiscoveryEndpoint"
+2017-10-22 14:39:10.337 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.DiscoveryEndpoint" for "/.well-known/openid-configuration/jwks"
+2017-10-22 14:39:10.341 +02:00 [Debug] Start key discovery request
+2017-10-22 14:49:03.096 +02:00 [Debug] Request path "/connect/authorize" matched to endpoint type Authorize
+2017-10-22 14:49:03.108 +02:00 [Debug] Mapping found for endpoint: Authorize, creating handler: "IdentityServer4.Endpoints.AuthorizeEndpoint"
+2017-10-22 14:49:03.117 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.AuthorizeEndpoint" for "/connect/authorize"
+2017-10-22 14:49:03.147 +02:00 [Debug] Start authorize request
+2017-10-22 14:49:03.161 +02:00 [Debug] User in authorize request: "818727"
+2017-10-22 14:49:03.171 +02:00 [Debug] Start authorize request protocol validation
+2017-10-22 14:49:03.173 +02:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-22 14:49:03.186 +02:00 [Information] ValidatedAuthorizeRequest
+"{
+  \"ClientId\": \"spa\",
+  \"ClientName\": \"SPA Client\",
+  \"RedirectUri\": \"http://localhost:5002/agenda\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:5002/agenda\"
+  ],
+  \"SubjectId\": \"818727\",
+  \"ResponseType\": \"id_token token\",
+  \"ResponseMode\": \"fragment\",
+  \"GrantType\": \"implicit\",
+  \"RequestedScopes\": \"openid profile agenda\",
+  \"Nonce\": \"n-0S6_WzA2Mj\",
+  \"SessionId\": \"47da2c24e7e1b7c43cc0c35cb5902ccc\",
+  \"Raw\": {
+    \"response_type\": \"id_token token\",
+    \"client_id\": \"spa\",
+    \"redirect_uri\": \"http://localhost:5002/agenda\",
+    \"scope\": \"openid profile agenda\",
+    \"nonce\": \"n-0S6_WzA2Mj\"
+  }
+}"
+2017-10-22 14:49:03.211 +02:00 [Debug] Creating Implicit Flow response.
+2017-10-22 14:49:03.213 +02:00 [Debug] Getting claims for access token for client: "spa"
+2017-10-22 14:49:03.215 +02:00 [Debug] Getting claims for access token for subject: "818727"
+2017-10-22 14:49:03.218 +02:00 [Debug] Get profile called for subject "818727" from client "SPA Client" with claim types [] via "ClaimsProviderAccessToken"
+2017-10-22 14:49:03.228 +02:00 [Debug] Getting claims for identity token for subject: "818727" and client: "spa"
+2017-10-22 14:49:03.229 +02:00 [Debug] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2017-10-22 14:49:03.238 +02:00 [Information] Authorize endpoint response
+"{
+  \"SubjectId\": \"818727\",
+  \"ClientId\": \"spa\",
+  \"RedirectUri\": \"http://localhost:5002/agenda\",
+  \"Scope\": \"openid profile agenda\"
+}"
+2017-10-22 15:01:39.998 +02:00 [Debug] Request path "/connect/authorize" matched to endpoint type Authorize
+2017-10-22 15:01:40.001 +02:00 [Debug] Mapping found for endpoint: Authorize, creating handler: "IdentityServer4.Endpoints.AuthorizeEndpoint"
+2017-10-22 15:01:40.002 +02:00 [Information] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.AuthorizeEndpoint" for "/connect/authorize"
+2017-10-22 15:01:40.004 +02:00 [Debug] Start authorize request
+2017-10-22 15:01:40.005 +02:00 [Debug] User in authorize request: "818727"
+2017-10-22 15:01:40.006 +02:00 [Debug] Start authorize request protocol validation
+2017-10-22 15:01:40.007 +02:00 [Debug] Calling into custom validator: "IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator"
+2017-10-22 15:01:40.008 +02:00 [Information] ValidatedAuthorizeRequest
+"{
+  \"ClientId\": \"spa\",
+  \"ClientName\": \"SPA Client\",
+  \"RedirectUri\": \"http://localhost:5002/agenda\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:5002/agenda\"
+  ],
+  \"SubjectId\": \"818727\",
+  \"ResponseType\": \"id_token token\",
+  \"ResponseMode\": \"fragment\",
+  \"GrantType\": \"implicit\",
+  \"RequestedScopes\": \"openid profile agenda\",
+  \"Nonce\": \"n-0S6_WzA2Mj\",
+  \"SessionId\": \"47da2c24e7e1b7c43cc0c35cb5902ccc\",
+  \"Raw\": {
+    \"response_type\": \"id_token token\",
+    \"client_id\": \"spa\",
+    \"redirect_uri\": \"http://localhost:5002/agenda\",
+    \"scope\": \"openid profile agenda\",
+    \"nonce\": \"n-0S6_WzA2Mj\"
+  }
+}"
+2017-10-22 15:01:40.016 +02:00 [Debug] Creating Implicit Flow response.
+2017-10-22 15:01:40.018 +02:00 [Debug] Getting claims for access token for client: "spa"
+2017-10-22 15:01:40.020 +02:00 [Debug] Getting claims for access token for subject: "818727"
+2017-10-22 15:01:40.022 +02:00 [Debug] Get profile called for subject "818727" from client "SPA Client" with claim types [] via "ClaimsProviderAccessToken"
+2017-10-22 15:01:40.028 +02:00 [Debug] Getting claims for identity token for subject: "818727" and client: "spa"
+2017-10-22 15:01:40.029 +02:00 [Debug] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2017-10-22 15:01:40.034 +02:00 [Information] Authorize endpoint response
+"{
+  \"SubjectId\": \"818727\",
+  \"ClientId\": \"spa\",
+  \"RedirectUri\": \"http://localhost:5002/agenda\",
+  \"Scope\": \"openid profile agenda\"
+}"
