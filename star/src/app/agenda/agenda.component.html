@@ -1,0 +1,64 @@
+<div class="page-header-text">
+  <i class="fa fa-tag"></i>
+  Star Conference - Agenda
+</div>
+
+<div class="alert alert-warning" *ngIf="message">
+  <i class="fa fa-exclamation-triangle"></i>
+  {{message}}
+</div>
+
+<div *ngFor="let ag of agenda" class="todo-item"
+
+     [ngClass]="{completed: ag.completed}"
+     (click)="editAgenda(ag)"
+>
+  <div class="pull-left" (click)="toggleCompleted(ag)"
+       >
+    <i class="fa" [ngClass]="{'fa-pencil-square-o': !ag.completed, 'fa-check': ag.completed}"></i>
+  </div>
+  <div class="pull-right" (click)="removeAgenda(ag)">
+    <i class="fa fa-remove"></i>
+  </div>
+  <div class="todo-header">{{ag.title}}</div>
+  <div class="todo-content">{{ag.speaker}}</div>
+</div>
+
+<div class="well">
+  <form name="form1" id="form1" #form1="ngForm">
+    <div class="form-group">
+      <div class="input-group">
+                    <span class="input-group-addon">
+                        <i class="fa fa-calendar-o"></i>
+                    </span>
+        <input type="text" class="form-control"
+               id="title" name="title"
+               [(ngModel)]="activeAgenda.title"
+               placeholder="Enter the title for this Agenda item"
+               required #title />
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label class="control-label" for="form-group-input">Speaker:</label>
+      <textarea class="form-control"
+                id="speaker" name="speaker"
+                style="height: 100px"
+                [(ngModel)]="activeAgenda.speaker"
+                minlength="10"
+                placeholder="Enter the Speaker for this placeholder"
+                required
+                #speaker="ngModel"></textarea>
+    </div>
+
+    <button class="btn btn-primary" type="button"
+            (click)="saveAgenda(activeAgenda,form1)"
+            [disabled]="form1.invalid">
+      <i class="fa fa-check-circle-o"></i> Save Agenda
+    </button>
+    <button class="btn btn-primary" type="button"
+            (click)="loadAgenda()">
+      <i class="fa fa-download"></i>
+      Load Agenda</button>
+  </form>
+</div>
