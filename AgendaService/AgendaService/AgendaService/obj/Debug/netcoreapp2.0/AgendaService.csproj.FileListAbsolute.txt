@@ -1,0 +1,22 @@
+D:\Projects\Playground\star\AgendaServiceVS\AgendaService\AgendaService\bin\Debug\netcoreapp2.0\AgendaService.deps.json
+D:\Projects\Playground\star\AgendaServiceVS\AgendaService\AgendaService\bin\Debug\netcoreapp2.0\AgendaService.runtimeconfig.json
+D:\Projects\Playground\star\AgendaServiceVS\AgendaService\AgendaService\bin\Debug\netcoreapp2.0\AgendaService.runtimeconfig.dev.json
+D:\Projects\Playground\star\AgendaServiceVS\AgendaService\AgendaService\bin\Debug\netcoreapp2.0\AgendaService.dll
+D:\Projects\Playground\star\AgendaServiceVS\AgendaService\AgendaService\obj\Debug\netcoreapp2.0\AgendaService.csprojResolveAssemblyReference.cache
+D:\Projects\Playground\star\AgendaServiceVS\AgendaService\AgendaService\obj\Debug\netcoreapp2.0\AgendaService.csproj.CoreCompileInputs.cache
+D:\Projects\Playground\star\AgendaServiceVS\AgendaService\AgendaService\obj\Debug\netcoreapp2.0\AgendaService.AssemblyInfoInputs.cache
+D:\Projects\Playground\star\AgendaServiceVS\AgendaService\AgendaService\obj\Debug\netcoreapp2.0\AgendaService.AssemblyInfo.cs
+D:\Projects\Playground\star\AgendaServiceVS\AgendaService\AgendaService\bin\Debug\netcoreapp2.0\AgendaService.pdb
+D:\Projects\Playground\star\AgendaServiceVS\AgendaService\AgendaService\obj\Debug\netcoreapp2.0\AgendaService.dll
+D:\Projects\Playground\star\AgendaServiceVS\AgendaService\AgendaService\obj\Debug\netcoreapp2.0\AgendaService.pdb
+D:\Projects\Playground\star step2\AgendaServiceVS\AgendaService\AgendaService\bin\Debug\netcoreapp2.0\AgendaService.deps.json
+D:\Projects\Playground\star step2\AgendaServiceVS\AgendaService\AgendaService\bin\Debug\netcoreapp2.0\AgendaService.runtimeconfig.json
+D:\Projects\Playground\star step2\AgendaServiceVS\AgendaService\AgendaService\bin\Debug\netcoreapp2.0\AgendaService.runtimeconfig.dev.json
+D:\Projects\Playground\star step2\AgendaServiceVS\AgendaService\AgendaService\bin\Debug\netcoreapp2.0\AgendaService.dll
+D:\Projects\Playground\star step2\AgendaServiceVS\AgendaService\AgendaService\bin\Debug\netcoreapp2.0\AgendaService.pdb
+D:\Projects\Playground\star step2\AgendaServiceVS\AgendaService\AgendaService\obj\Debug\netcoreapp2.0\AgendaService.csprojResolveAssemblyReference.cache
+D:\Projects\Playground\star step2\AgendaServiceVS\AgendaService\AgendaService\obj\Debug\netcoreapp2.0\AgendaService.csproj.CoreCompileInputs.cache
+D:\Projects\Playground\star step2\AgendaServiceVS\AgendaService\AgendaService\obj\Debug\netcoreapp2.0\AgendaService.AssemblyInfoInputs.cache
+D:\Projects\Playground\star step2\AgendaServiceVS\AgendaService\AgendaService\obj\Debug\netcoreapp2.0\AgendaService.AssemblyInfo.cs
+D:\Projects\Playground\star step2\AgendaServiceVS\AgendaService\AgendaService\obj\Debug\netcoreapp2.0\AgendaService.dll
+D:\Projects\Playground\star step2\AgendaServiceVS\AgendaService\AgendaService\obj\Debug\netcoreapp2.0\AgendaService.pdb
